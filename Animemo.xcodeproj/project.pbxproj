@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5206F3761F71706800836411 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5206F3751F71706800836411 /* AppDelegate.swift */; };
+		5206F3781F71706800836411 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5206F3771F71706800836411 /* ViewController.swift */; };
+		5206F37B1F71706800836411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5206F3791F71706800836411 /* Main.storyboard */; };
+		5206F37D1F71706800836411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5206F37C1F71706800836411 /* Assets.xcassets */; };
+		5206F3801F71706800836411 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5206F37E1F71706800836411 /* LaunchScreen.storyboard */; };
+		5206F38B1F71706800836411 /* AnimemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5206F38A1F71706800836411 /* AnimemoTests.swift */; };
+		5206F3961F71706800836411 /* AnimemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5206F3951F71706800836411 /* AnimemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5206F3871F71706800836411 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5206F36A1F71706800836411 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5206F3711F71706800836411;
+			remoteInfo = Animemo;
+		};
+		5206F3921F71706800836411 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5206F36A1F71706800836411 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5206F3711F71706800836411;
+			remoteInfo = Animemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5206F3721F71706800836411 /* Animemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5206F3751F71706800836411 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5206F3771F71706800836411 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5206F37A1F71706800836411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5206F37C1F71706800836411 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5206F37F1F71706800836411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5206F3811F71706800836411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5206F3861F71706800836411 /* AnimemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5206F38A1F71706800836411 /* AnimemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimemoTests.swift; sourceTree = "<group>"; };
+		5206F38C1F71706800836411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5206F3911F71706800836411 /* AnimemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5206F3951F71706800836411 /* AnimemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimemoUITests.swift; sourceTree = "<group>"; };
+		5206F3971F71706800836411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5206F36F1F71706800836411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5206F3831F71706800836411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5206F38E1F71706800836411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5206F3691F71706800836411 = {
+			isa = PBXGroup;
+			children = (
+				5206F3741F71706800836411 /* Animemo */,
+				5206F3891F71706800836411 /* AnimemoTests */,
+				5206F3941F71706800836411 /* AnimemoUITests */,
+				5206F3731F71706800836411 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5206F3731F71706800836411 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5206F3721F71706800836411 /* Animemo.app */,
+				5206F3861F71706800836411 /* AnimemoTests.xctest */,
+				5206F3911F71706800836411 /* AnimemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5206F3741F71706800836411 /* Animemo */ = {
+			isa = PBXGroup;
+			children = (
+				5206F3751F71706800836411 /* AppDelegate.swift */,
+				5206F3771F71706800836411 /* ViewController.swift */,
+				5206F3791F71706800836411 /* Main.storyboard */,
+				5206F37C1F71706800836411 /* Assets.xcassets */,
+				5206F37E1F71706800836411 /* LaunchScreen.storyboard */,
+				5206F3811F71706800836411 /* Info.plist */,
+			);
+			path = Animemo;
+			sourceTree = "<group>";
+		};
+		5206F3891F71706800836411 /* AnimemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5206F38A1F71706800836411 /* AnimemoTests.swift */,
+				5206F38C1F71706800836411 /* Info.plist */,
+			);
+			path = AnimemoTests;
+			sourceTree = "<group>";
+		};
+		5206F3941F71706800836411 /* AnimemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5206F3951F71706800836411 /* AnimemoUITests.swift */,
+				5206F3971F71706800836411 /* Info.plist */,
+			);
+			path = AnimemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5206F3711F71706800836411 /* Animemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5206F39A1F71706800836411 /* Build configuration list for PBXNativeTarget "Animemo" */;
+			buildPhases = (
+				5206F36E1F71706800836411 /* Sources */,
+				5206F36F1F71706800836411 /* Frameworks */,
+				5206F3701F71706800836411 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Animemo;
+			productName = Animemo;
+			productReference = 5206F3721F71706800836411 /* Animemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5206F3851F71706800836411 /* AnimemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5206F39D1F71706800836411 /* Build configuration list for PBXNativeTarget "AnimemoTests" */;
+			buildPhases = (
+				5206F3821F71706800836411 /* Sources */,
+				5206F3831F71706800836411 /* Frameworks */,
+				5206F3841F71706800836411 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5206F3881F71706800836411 /* PBXTargetDependency */,
+			);
+			name = AnimemoTests;
+			productName = AnimemoTests;
+			productReference = 5206F3861F71706800836411 /* AnimemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5206F3901F71706800836411 /* AnimemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5206F3A01F71706800836411 /* Build configuration list for PBXNativeTarget "AnimemoUITests" */;
+			buildPhases = (
+				5206F38D1F71706800836411 /* Sources */,
+				5206F38E1F71706800836411 /* Frameworks */,
+				5206F38F1F71706800836411 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5206F3931F71706800836411 /* PBXTargetDependency */,
+			);
+			name = AnimemoUITests;
+			productName = AnimemoUITests;
+			productReference = 5206F3911F71706800836411 /* AnimemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5206F36A1F71706800836411 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "João Carlos Fernandes Neto";
+				TargetAttributes = {
+					5206F3711F71706800836411 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					5206F3851F71706800836411 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5206F3711F71706800836411;
+					};
+					5206F3901F71706800836411 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5206F3711F71706800836411;
+					};
+				};
+			};
+			buildConfigurationList = 5206F36D1F71706800836411 /* Build configuration list for PBXProject "Animemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5206F3691F71706800836411;
+			productRefGroup = 5206F3731F71706800836411 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5206F3711F71706800836411 /* Animemo */,
+				5206F3851F71706800836411 /* AnimemoTests */,
+				5206F3901F71706800836411 /* AnimemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5206F3701F71706800836411 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5206F3801F71706800836411 /* LaunchScreen.storyboard in Resources */,
+				5206F37D1F71706800836411 /* Assets.xcassets in Resources */,
+				5206F37B1F71706800836411 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5206F3841F71706800836411 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5206F38F1F71706800836411 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5206F36E1F71706800836411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5206F3781F71706800836411 /* ViewController.swift in Sources */,
+				5206F3761F71706800836411 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5206F3821F71706800836411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5206F38B1F71706800836411 /* AnimemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5206F38D1F71706800836411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5206F3961F71706800836411 /* AnimemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5206F3881F71706800836411 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5206F3711F71706800836411 /* Animemo */;
+			targetProxy = 5206F3871F71706800836411 /* PBXContainerItemProxy */;
+		};
+		5206F3931F71706800836411 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5206F3711F71706800836411 /* Animemo */;
+			targetProxy = 5206F3921F71706800836411 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5206F3791F71706800836411 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5206F37A1F71706800836411 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5206F37E1F71706800836411 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5206F37F1F71706800836411 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5206F3981F71706800836411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5206F3991F71706800836411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5206F39B1F71706800836411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Animemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jcneto.com.Animemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5206F39C1F71706800836411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Animemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jcneto.com.Animemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5206F39E1F71706800836411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jcneto.com.AnimemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animemo.app/Animemo";
+			};
+			name = Debug;
+		};
+		5206F39F1F71706800836411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jcneto.com.AnimemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animemo.app/Animemo";
+			};
+			name = Release;
+		};
+		5206F3A11F71706800836411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jcneto.com.AnimemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Animemo;
+			};
+			name = Debug;
+		};
+		5206F3A21F71706800836411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jcneto.com.AnimemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Animemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5206F36D1F71706800836411 /* Build configuration list for PBXProject "Animemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5206F3981F71706800836411 /* Debug */,
+				5206F3991F71706800836411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5206F39A1F71706800836411 /* Build configuration list for PBXNativeTarget "Animemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5206F39B1F71706800836411 /* Debug */,
+				5206F39C1F71706800836411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5206F39D1F71706800836411 /* Build configuration list for PBXNativeTarget "AnimemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5206F39E1F71706800836411 /* Debug */,
+				5206F39F1F71706800836411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5206F3A01F71706800836411 /* Build configuration list for PBXNativeTarget "AnimemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5206F3A11F71706800836411 /* Debug */,
+				5206F3A21F71706800836411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5206F36A1F71706800836411 /* Project object */;
+}
