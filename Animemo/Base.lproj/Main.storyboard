@@ -65,6 +65,9 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="byb-pJ-b8U" secondAttribute="height" multiplier="1:1" id="aAl-hl-0L2"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6w5-S2-pPP"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -121,7 +124,7 @@
                                                     <constraint firstAttribute="width" secondItem="nqV-E9-rvz" secondAttribute="height" multiplier="1:1" id="fR6-7X-5sy"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBq-bA-DZm">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBq-bA-DZm">
                                                 <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="mBq-bA-DZm" secondAttribute="height" multiplier="1:1" id="i9v-dT-pZu"/>
@@ -182,7 +185,7 @@
                                                     <constraint firstAttribute="width" secondItem="eSZ-BX-3T6" secondAttribute="height" multiplier="1:1" id="XHE-lH-EXV"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ghd-H8-tQ8">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ghd-H8-tQ8">
                                                 <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="ghd-H8-tQ8" secondAttribute="height" multiplier="1:1" id="nsu-9G-f7n"/>
@@ -304,7 +307,7 @@
                                                     <constraint firstAttribute="width" secondItem="ycl-WQ-aL4" secondAttribute="height" multiplier="1:1" id="0Wa-h4-Urb"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qoM-G5-9mK">
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qoM-G5-9mK">
                                                 <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="qoM-G5-9mK" secondAttribute="height" multiplier="1:1" id="oom-Op-Uk0"/>
@@ -365,7 +368,7 @@
                                                     <constraint firstAttribute="width" secondItem="sDT-Sh-8VA" secondAttribute="height" multiplier="1:1" id="OQ1-yn-aHz"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sH5-uT-HWT">
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sH5-uT-HWT">
                                                 <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="sH5-uT-HWT" secondAttribute="height" multiplier="1:1" id="rGg-12-zFe"/>
@@ -426,7 +429,7 @@
                                                     <constraint firstAttribute="width" secondItem="yXh-Mz-INg" secondAttribute="height" multiplier="1:1" id="6R3-UP-EuY"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBb-me-DRI">
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBb-me-DRI">
                                                 <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="gBb-me-DRI" secondAttribute="height" multiplier="1:1" id="faY-lt-nZt"/>
@@ -487,7 +490,7 @@
                                                     <constraint firstAttribute="width" secondItem="1qw-sk-JVy" secondAttribute="height" multiplier="1:1" id="jH8-uy-ipb"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MK9-n7-9iQ">
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MK9-n7-9iQ">
                                                 <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="MK9-n7-9iQ" secondAttribute="height" multiplier="1:1" id="DAN-eP-L5j"/>
@@ -548,7 +551,7 @@
                                                     <constraint firstAttribute="width" secondItem="LvT-EQ-MY4" secondAttribute="height" multiplier="1:1" id="5ri-t1-o7h"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vnx-CM-iLU">
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vnx-CM-iLU">
                                                 <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Vnx-CM-iLU" secondAttribute="height" multiplier="1:1" id="uql-4l-hch"/>
@@ -609,7 +612,7 @@
                                                     <constraint firstAttribute="width" secondItem="PFf-rF-9nk" secondAttribute="height" multiplier="1:1" id="fmm-Ln-i8O"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kP5-wb-bVq">
+                                            <button opaque="NO" tag="9" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kP5-wb-bVq">
                                                 <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="kP5-wb-bVq" secondAttribute="height" multiplier="1:1" id="UNR-og-4ek"/>
@@ -670,7 +673,7 @@
                                                     <constraint firstAttribute="width" secondItem="VMO-Bi-uBh" secondAttribute="height" multiplier="1:1" id="EVA-ku-qj9"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abi-NL-kZ4">
+                                            <button opaque="NO" tag="10" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abi-NL-kZ4">
                                                 <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="abi-NL-kZ4" secondAttribute="height" multiplier="1:1" id="Fin-8X-68b"/>
@@ -731,7 +734,7 @@
                                                     <constraint firstAttribute="width" secondItem="m1K-M3-9qv" secondAttribute="height" multiplier="1:1" id="D2c-Sf-Xdd"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eyH-Fc-LRX">
+                                            <button opaque="NO" tag="11" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eyH-Fc-LRX">
                                                 <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="eyH-Fc-LRX" secondAttribute="height" multiplier="1:1" id="1cK-n4-AMC"/>
@@ -792,7 +795,7 @@
                                                     <constraint firstAttribute="width" secondItem="DPE-DI-cXa" secondAttribute="height" multiplier="1:1" id="WTQ-ti-WsF"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xth-F0-k52">
+                                            <button opaque="NO" tag="13" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xth-F0-k52">
                                                 <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Xth-F0-k52" secondAttribute="height" multiplier="1:1" id="5yX-gW-48M"/>
@@ -853,7 +856,7 @@
                                                     <constraint firstAttribute="width" secondItem="QQS-H8-aAg" secondAttribute="height" multiplier="1:1" id="dJX-GW-CVj"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcd-Rj-bjo">
+                                            <button opaque="NO" tag="13" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcd-Rj-bjo">
                                                 <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="qcd-Rj-bjo" secondAttribute="height" multiplier="1:1" id="Mld-Fb-YUq"/>
@@ -914,7 +917,7 @@
                                                     <constraint firstAttribute="width" secondItem="7Nh-Li-iAE" secondAttribute="height" multiplier="1:1" id="EXY-Lu-KqZ"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qhf-Xg-KhU">
+                                            <button opaque="NO" tag="14" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qhf-Xg-KhU">
                                                 <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Qhf-Xg-KhU" secondAttribute="height" multiplier="1:1" id="boF-wZ-3vl"/>
@@ -975,7 +978,7 @@
                                                     <constraint firstAttribute="width" secondItem="YXU-HS-uLW" secondAttribute="height" multiplier="1:1" id="ooT-h1-tMp"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUh-5c-2Pq">
+                                            <button opaque="NO" tag="15" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUh-5c-2Pq">
                                                 <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="YUh-5c-2Pq" secondAttribute="height" multiplier="1:1" id="Kd1-nO-Dja"/>
@@ -1019,6 +1022,40 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="back1" destination="nEp-P2-gPu" id="1Kf-V6-1wP"/>
+                        <outlet property="back10" destination="cvs-AH-Ena" id="ait-af-EqF"/>
+                        <outlet property="back11" destination="tis-xH-bfS" id="6rs-hK-O8A"/>
+                        <outlet property="back12" destination="Cd6-DH-6cZ" id="mX8-OC-le5"/>
+                        <outlet property="back13" destination="VgM-DT-jT8" id="9Yc-Qu-H6V"/>
+                        <outlet property="back14" destination="JpK-2p-O9f" id="8tv-6a-kaJ"/>
+                        <outlet property="back15" destination="zQk-st-w5C" id="F2v-gQ-WbF"/>
+                        <outlet property="back16" destination="Nom-Tp-rmh" id="VFM-q8-1ek"/>
+                        <outlet property="back2" destination="22g-gn-Ukc" id="Y5w-i2-F0i"/>
+                        <outlet property="back3" destination="ipV-0q-aS9" id="GR5-35-HJh"/>
+                        <outlet property="back4" destination="FuC-8e-CVM" id="tXk-NP-7eO"/>
+                        <outlet property="back5" destination="eQW-aa-nU6" id="SSF-Y3-brF"/>
+                        <outlet property="back6" destination="Qlf-Lr-EZa" id="jdN-xK-D8p"/>
+                        <outlet property="back7" destination="qWF-zw-43i" id="pfp-Z5-cbz"/>
+                        <outlet property="back8" destination="TD7-Nc-SEN" id="DG3-4z-n1H"/>
+                        <outlet property="back9" destination="qzU-70-8qe" id="hI8-lQ-b04"/>
+                        <outlet property="front1" destination="BnD-zR-uxY" id="qwo-On-siB"/>
+                        <outlet property="front10" destination="vRk-Rf-T6G" id="kkt-TE-EOh"/>
+                        <outlet property="front11" destination="zOO-H4-ahW" id="yCA-qe-oNp"/>
+                        <outlet property="front12" destination="084-Is-NpB" id="i34-FK-bQD"/>
+                        <outlet property="front13" destination="Rgx-Gs-aXv" id="Ytt-HT-uD2"/>
+                        <outlet property="front14" destination="e7K-VP-gt6" id="Lky-eG-jQE"/>
+                        <outlet property="front15" destination="3FM-O4-pLn" id="Qde-4B-WiM"/>
+                        <outlet property="front16" destination="UvS-17-M08" id="HdP-d4-Kcm"/>
+                        <outlet property="front2" destination="T5s-Dy-Tz7" id="39g-Hi-DoW"/>
+                        <outlet property="front3" destination="GCS-se-hUc" id="di7-0K-Run"/>
+                        <outlet property="front4" destination="KCN-ng-a7v" id="DJi-dh-24z"/>
+                        <outlet property="front5" destination="q3I-xL-uju" id="uig-wy-F3E"/>
+                        <outlet property="front6" destination="fcy-EO-NGF" id="VoC-ht-Ooa"/>
+                        <outlet property="front7" destination="5Xj-OL-Hox" id="y1y-sO-2Rv"/>
+                        <outlet property="front8" destination="K8x-3D-O9e" id="aCL-JT-vyl"/>
+                        <outlet property="front9" destination="Vbz-ww-g0d" id="eqF-dK-pag"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
