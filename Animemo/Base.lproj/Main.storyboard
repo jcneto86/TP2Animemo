@@ -30,61 +30,6 @@
                                     <constraint firstAttribute="width" secondItem="dmY-wo-mH9" secondAttribute="height" multiplier="6:1" id="tj7-mJ-WNw"/>
                                 </constraints>
                             </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pqi-Yp-BLG" userLabel="card1">
-                                <rect key="frame" x="80" y="191" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nEp-P2-gPu" userLabel="back">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="moose.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Y8-De-0jb" userLabel="animal">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="7Y8-De-0jb" secondAttribute="height" multiplier="1:1" id="UAn-UW-TLK"/>
-                                                </constraints>
-                                            </imageView>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="7Y8-De-0jb" secondAttribute="bottom" id="9a8-Jx-GFn"/>
-                                            <constraint firstItem="7Y8-De-0jb" firstAttribute="top" secondItem="nEp-P2-gPu" secondAttribute="top" id="KR7-nI-ogK"/>
-                                            <constraint firstAttribute="trailing" secondItem="7Y8-De-0jb" secondAttribute="trailing" id="cmd-ye-kie"/>
-                                            <constraint firstAttribute="width" secondItem="nEp-P2-gPu" secondAttribute="height" multiplier="1:1" id="fNV-Iv-AG5"/>
-                                            <constraint firstItem="7Y8-De-0jb" firstAttribute="leading" secondItem="nEp-P2-gPu" secondAttribute="leading" id="nn7-7V-Ddp"/>
-                                        </constraints>
-                                    </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BnD-zR-uxY" userLabel="front">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="front.png" translatesAutoresizingMaskIntoConstraints="NO" id="STM-B8-4sa" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="STM-B8-4sa" secondAttribute="height" multiplier="1:1" id="NbU-5K-TPU"/>
-                                                </constraints>
-                                            </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="byb-pJ-b8U">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="byb-pJ-b8U" secondAttribute="height" multiplier="1:1" id="aAl-hl-0L2"/>
-                                                </constraints>
-                                                <connections>
-                                                    <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6w5-S2-pPP"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstItem="STM-B8-4sa" firstAttribute="top" secondItem="BnD-zR-uxY" secondAttribute="top" id="2Rb-0m-W9Q"/>
-                                            <constraint firstAttribute="trailing" secondItem="STM-B8-4sa" secondAttribute="trailing" id="5nm-fu-8Rb"/>
-                                            <constraint firstAttribute="width" secondItem="BnD-zR-uxY" secondAttribute="height" multiplier="1:1" id="Kbk-NO-zih"/>
-                                            <constraint firstItem="STM-B8-4sa" firstAttribute="leading" secondItem="BnD-zR-uxY" secondAttribute="leading" id="RW3-8J-YIG"/>
-                                            <constraint firstAttribute="bottom" secondItem="STM-B8-4sa" secondAttribute="bottom" id="Tmu-Gn-dQE"/>
-                                            <constraint firstItem="byb-pJ-b8U" firstAttribute="leading" secondItem="BnD-zR-uxY" secondAttribute="leading" id="iE7-px-Tca"/>
-                                            <constraint firstAttribute="trailing" secondItem="byb-pJ-b8U" secondAttribute="trailing" id="rXr-MR-NuZ"/>
-                                            <constraint firstItem="byb-pJ-b8U" firstAttribute="top" secondItem="BnD-zR-uxY" secondAttribute="top" id="wzM-h5-SBg"/>
-                                            <constraint firstAttribute="bottom" secondItem="byb-pJ-b8U" secondAttribute="bottom" id="yem-U7-ItB"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                            </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wIw-pu-T8c" userLabel="card2">
                                 <rect key="frame" x="238" y="191" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -910,6 +855,61 @@
                                     </view>
                                 </subviews>
                             </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pqi-Yp-BLG" userLabel="card1">
+                                <rect key="frame" x="80" y="191" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nEp-P2-gPu" userLabel="back">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="moose.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Y8-De-0jb" userLabel="animal">
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="7Y8-De-0jb" secondAttribute="height" multiplier="1:1" id="UAn-UW-TLK"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="7Y8-De-0jb" secondAttribute="bottom" id="9a8-Jx-GFn"/>
+                                            <constraint firstItem="7Y8-De-0jb" firstAttribute="top" secondItem="nEp-P2-gPu" secondAttribute="top" id="KR7-nI-ogK"/>
+                                            <constraint firstAttribute="trailing" secondItem="7Y8-De-0jb" secondAttribute="trailing" id="cmd-ye-kie"/>
+                                            <constraint firstAttribute="width" secondItem="nEp-P2-gPu" secondAttribute="height" multiplier="1:1" id="fNV-Iv-AG5"/>
+                                            <constraint firstItem="7Y8-De-0jb" firstAttribute="leading" secondItem="nEp-P2-gPu" secondAttribute="leading" id="nn7-7V-Ddp"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BnD-zR-uxY" userLabel="front">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="front.png" translatesAutoresizingMaskIntoConstraints="NO" id="STM-B8-4sa" userLabel="front">
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="STM-B8-4sa" secondAttribute="height" multiplier="1:1" id="NbU-5K-TPU"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="byb-pJ-b8U">
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="byb-pJ-b8U" secondAttribute="height" multiplier="1:1" id="aAl-hl-0L2"/>
+                                                </constraints>
+                                                <connections>
+                                                    <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6w5-S2-pPP"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="STM-B8-4sa" firstAttribute="top" secondItem="BnD-zR-uxY" secondAttribute="top" id="2Rb-0m-W9Q"/>
+                                            <constraint firstAttribute="trailing" secondItem="STM-B8-4sa" secondAttribute="trailing" id="5nm-fu-8Rb"/>
+                                            <constraint firstAttribute="width" secondItem="BnD-zR-uxY" secondAttribute="height" multiplier="1:1" id="Kbk-NO-zih"/>
+                                            <constraint firstItem="STM-B8-4sa" firstAttribute="leading" secondItem="BnD-zR-uxY" secondAttribute="leading" id="RW3-8J-YIG"/>
+                                            <constraint firstAttribute="bottom" secondItem="STM-B8-4sa" secondAttribute="bottom" id="Tmu-Gn-dQE"/>
+                                            <constraint firstItem="byb-pJ-b8U" firstAttribute="leading" secondItem="BnD-zR-uxY" secondAttribute="leading" id="iE7-px-Tca"/>
+                                            <constraint firstAttribute="trailing" secondItem="byb-pJ-b8U" secondAttribute="trailing" id="rXr-MR-NuZ"/>
+                                            <constraint firstItem="byb-pJ-b8U" firstAttribute="top" secondItem="BnD-zR-uxY" secondAttribute="top" id="wzM-h5-SBg"/>
+                                            <constraint firstAttribute="bottom" secondItem="byb-pJ-b8U" secondAttribute="bottom" id="yem-U7-ItB"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -956,6 +956,22 @@
                         <outlet property="front7" destination="5Xj-OL-Hox" id="y1y-sO-2Rv"/>
                         <outlet property="front8" destination="K8x-3D-O9e" id="aCL-JT-vyl"/>
                         <outlet property="front9" destination="Vbz-ww-g0d" id="eqF-dK-pag"/>
+                        <outlet property="imgView1" destination="7Y8-De-0jb" id="mtA-je-lnd"/>
+                        <outlet property="imgView10" destination="cB8-hy-hr3" id="rkv-jv-9c2"/>
+                        <outlet property="imgView11" destination="En5-UZ-qwN" id="Oap-0i-vKr"/>
+                        <outlet property="imgView12" destination="eUU-3f-LJR" id="DwR-wW-NZd"/>
+                        <outlet property="imgView13" destination="WME-QY-WWo" id="EYA-ne-jA7"/>
+                        <outlet property="imgView14" destination="Wdg-qC-s9e" id="39s-Uh-x5w"/>
+                        <outlet property="imgView15" destination="ait-8r-3qA" id="Y3o-X8-VMg"/>
+                        <outlet property="imgView16" destination="N0o-d0-9Gf" id="BEd-Ay-mZP"/>
+                        <outlet property="imgView2" destination="LRm-Z8-7H9" id="DaN-2b-yz6"/>
+                        <outlet property="imgView3" destination="xbe-hp-EC5" id="kE4-zD-Pd9"/>
+                        <outlet property="imgView4" destination="hrC-uU-H5i" id="Fgh-BT-qOI"/>
+                        <outlet property="imgView5" destination="g68-LP-kLZ" id="uYC-lJ-taI"/>
+                        <outlet property="imgView6" destination="xRY-5t-Slh" id="cUJ-OE-880"/>
+                        <outlet property="imgView7" destination="tZS-zP-crF" id="mnq-kM-xfg"/>
+                        <outlet property="imgView8" destination="p7M-5B-q8g" id="3XL-7O-Nlh"/>
+                        <outlet property="imgView9" destination="adY-aa-fVW" id="LL3-3K-CbZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

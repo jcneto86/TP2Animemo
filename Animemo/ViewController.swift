@@ -37,9 +37,36 @@ class ViewController: UIViewController {
     @IBOutlet weak var back16: UIView!
     @IBOutlet weak var front16: UIView!
     //=======================================
+    @IBOutlet weak var imgView1: UIImageView!
+    @IBOutlet weak var imgView2: UIImageView!
+    @IBOutlet weak var imgView3: UIImageView!
+    @IBOutlet weak var imgView4: UIImageView!
+    @IBOutlet weak var imgView5: UIImageView!
+    @IBOutlet weak var imgView6: UIImageView!
+    @IBOutlet weak var imgView7: UIImageView!
+    @IBOutlet weak var imgView8: UIImageView!
+    @IBOutlet weak var imgView9: UIImageView!
+    @IBOutlet weak var imgView10: UIImageView!
+    @IBOutlet weak var imgView11: UIImageView!
+    @IBOutlet weak var imgView12: UIImageView!
+    @IBOutlet weak var imgView13: UIImageView!
+    @IBOutlet weak var imgView14: UIImageView!
+    @IBOutlet weak var imgView15: UIImageView!
+    @IBOutlet weak var imgView16: UIImageView!
+    //=======================================
+    var arrayOfImageViews: [UIImageView]!
+    var arrayOfRandomAnimal: [;"beaver.png", "beaver.png", "bee.png", "bee.png", "cat.png", "cat.png", "chicken.png", "chicken.png", "cow.png", "cow.png", "dog.png", "dog.png", "duck.png", "duck.png", "moose.png", "moose.png", "pig.png", "pig.png", "sheep.png"]
+    var arrayOfRandomAnimalNames = [String]()
+    var arrayChosenCards = [String]()
+    var arrayOfCards = [UIView]()
+    var arrayOfShowingBacks = [UIView]()
+    var arrayOfHidingFronts = [UIView]()
+    var cards: [UIView]!
+    //=======================================
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        arrayOfImageViews = [imgView1, imgView2, imgView3, imgView4, imgView5, imgView6, imgView7, imgView8, imgView9, imgView10, imgView11, imgView12, imgView13, imgView14, imgView15, imgView16]
 
     }
     //=======================================
@@ -58,8 +85,14 @@ class ViewController: UIViewController {
         })
     }
     //=======================================
-
-
+    func setImagesToCards() {
+        var number = 0
+        for imgView in arrayOfImageViews {
+            imgView.image = UIImage(named: arrayOfRandomAnimalNames[number])
+            number = number + 1
+        }
+    }
+    //=======================================
     
 }
 //=======================================
