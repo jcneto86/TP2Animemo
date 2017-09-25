@@ -256,7 +256,7 @@ class ViewController: UIViewController {
         for card in cards {
             card.isHidden =  false
         }
-        arrayOfAnimalNames = ["beaver.png", "beaver.png", "bee.png", "bee.png", "cat.png", "cat.png", "chicken.png", "chicken.png", "cow.png", "cow.png", "dog.png", "dog.png", "duck.png", "duck.png", "moose.png", "moose.png", "pig.png", "pig.png", "sheep.png"]
+        arrayOfAnimalNames = ["beaver.png", "beaver.png", "cat.png", "cat.png", "cow.png", "cow.png", "dog.png", "dog.png", "duck.png", "duck.png", "moose.png", "moose.png", "pig.png", "pig.png", "sheep.png", "sheep.png"]
         arrayOfRandomAnimalNames = []
         randomAnimals()
         setImagesToCards()
