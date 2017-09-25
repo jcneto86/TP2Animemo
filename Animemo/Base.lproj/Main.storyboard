@@ -30,8 +30,9 @@
                                     <constraint firstAttribute="width" secondItem="dmY-wo-mH9" secondAttribute="height" multiplier="6:1" id="tj7-mJ-WNw"/>
                                 </constraints>
                             </imageView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pqi-Yp-BLG" userLabel="card1">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pqi-Yp-BLG" userLabel="card1">
                                 <rect key="frame" x="80" y="191" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nEp-P2-gPu" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -83,19 +84,10 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="BnD-zR-uxY" secondAttribute="trailing" id="BjM-Wp-Qbc"/>
-                                    <constraint firstAttribute="bottom" secondItem="nEp-P2-gPu" secondAttribute="bottom" id="EM7-Qg-IiQ"/>
-                                    <constraint firstItem="nEp-P2-gPu" firstAttribute="top" secondItem="pqi-Yp-BLG" secondAttribute="top" id="Vkv-mI-Wy6"/>
-                                    <constraint firstItem="nEp-P2-gPu" firstAttribute="leading" secondItem="pqi-Yp-BLG" secondAttribute="leading" id="Zvg-0w-oyE"/>
-                                    <constraint firstAttribute="trailing" secondItem="nEp-P2-gPu" secondAttribute="trailing" id="r9r-PI-LIN"/>
-                                    <constraint firstItem="BnD-zR-uxY" firstAttribute="top" secondItem="pqi-Yp-BLG" secondAttribute="top" id="rlz-af-xhQ"/>
-                                    <constraint firstItem="BnD-zR-uxY" firstAttribute="leading" secondItem="pqi-Yp-BLG" secondAttribute="leading" id="sjF-fC-g65"/>
-                                    <constraint firstAttribute="bottom" secondItem="BnD-zR-uxY" secondAttribute="bottom" id="xbh-fO-e6V"/>
-                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wIw-pu-T8c" userLabel="card2">
-                                <rect key="frame" x="229" y="191" width="150" height="150"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wIw-pu-T8c" userLabel="card2">
+                                <rect key="frame" x="238" y="191" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="22g-gn-Ukc" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -147,19 +139,10 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="T5s-Dy-Tz7" secondAttribute="trailing" id="6A0-3U-axV"/>
-                                    <constraint firstItem="T5s-Dy-Tz7" firstAttribute="top" secondItem="wIw-pu-T8c" secondAttribute="top" id="Dcr-JK-BHH"/>
-                                    <constraint firstItem="22g-gn-Ukc" firstAttribute="leading" secondItem="wIw-pu-T8c" secondAttribute="leading" id="HUy-dJ-QMS"/>
-                                    <constraint firstAttribute="bottom" secondItem="T5s-Dy-Tz7" secondAttribute="bottom" id="L8H-6i-Ynk"/>
-                                    <constraint firstAttribute="trailing" secondItem="22g-gn-Ukc" secondAttribute="trailing" id="Off-7q-b54"/>
-                                    <constraint firstAttribute="bottom" secondItem="22g-gn-Ukc" secondAttribute="bottom" id="Qyb-ZU-iXd"/>
-                                    <constraint firstItem="22g-gn-Ukc" firstAttribute="top" secondItem="wIw-pu-T8c" secondAttribute="top" id="XLC-lM-FXD"/>
-                                    <constraint firstItem="T5s-Dy-Tz7" firstAttribute="leading" secondItem="wIw-pu-T8c" secondAttribute="leading" id="moT-uJ-Mzx"/>
-                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0bi-7h-6sb" userLabel="card3">
-                                <rect key="frame" x="387" y="191" width="150" height="150"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0bi-7h-6sb" userLabel="card3">
+                                <rect key="frame" x="396" y="191" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ipV-0q-aS9" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -211,19 +194,10 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="ipV-0q-aS9" secondAttribute="bottom" id="1Yx-c6-SmU"/>
-                                    <constraint firstItem="GCS-se-hUc" firstAttribute="top" secondItem="0bi-7h-6sb" secondAttribute="top" id="3Bb-a2-cvS"/>
-                                    <constraint firstItem="ipV-0q-aS9" firstAttribute="top" secondItem="0bi-7h-6sb" secondAttribute="top" id="INT-8x-Maz"/>
-                                    <constraint firstItem="ipV-0q-aS9" firstAttribute="leading" secondItem="0bi-7h-6sb" secondAttribute="leading" id="W4C-nJ-Ri6"/>
-                                    <constraint firstItem="GCS-se-hUc" firstAttribute="leading" secondItem="0bi-7h-6sb" secondAttribute="leading" id="gZ6-7B-iBI"/>
-                                    <constraint firstAttribute="trailing" secondItem="ipV-0q-aS9" secondAttribute="trailing" id="l4p-a9-8RM"/>
-                                    <constraint firstAttribute="trailing" secondItem="GCS-se-hUc" secondAttribute="trailing" id="pXt-Nc-3xr"/>
-                                    <constraint firstAttribute="bottom" secondItem="GCS-se-hUc" secondAttribute="bottom" id="ryI-hv-AmC"/>
-                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PQ6-ew-Mp7" userLabel="card4">
-                                <rect key="frame" x="545" y="191" width="150" height="150"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PQ6-ew-Mp7" userLabel="card4">
+                                <rect key="frame" x="554" y="191" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FuC-8e-CVM" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -275,19 +249,10 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="FuC-8e-CVM" secondAttribute="bottom" id="69j-dj-gY8"/>
-                                    <constraint firstAttribute="trailing" secondItem="FuC-8e-CVM" secondAttribute="trailing" id="IFv-4Y-H5r"/>
-                                    <constraint firstItem="KCN-ng-a7v" firstAttribute="top" secondItem="PQ6-ew-Mp7" secondAttribute="top" id="Qwh-ab-KyW"/>
-                                    <constraint firstItem="FuC-8e-CVM" firstAttribute="leading" secondItem="PQ6-ew-Mp7" secondAttribute="leading" id="aMF-B1-JKv"/>
-                                    <constraint firstItem="KCN-ng-a7v" firstAttribute="leading" secondItem="PQ6-ew-Mp7" secondAttribute="leading" id="eT6-Yi-DXO"/>
-                                    <constraint firstAttribute="bottom" secondItem="KCN-ng-a7v" secondAttribute="bottom" id="kvs-KL-GxB"/>
-                                    <constraint firstItem="FuC-8e-CVM" firstAttribute="top" secondItem="PQ6-ew-Mp7" secondAttribute="top" id="ujk-cP-UoG"/>
-                                    <constraint firstAttribute="trailing" secondItem="KCN-ng-a7v" secondAttribute="trailing" id="xfd-0Q-L5o"/>
-                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ddf-tf-P4g" userLabel="card5">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ddf-tf-P4g" userLabel="card5">
                                 <rect key="frame" x="80" y="349" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eQW-aa-nU6" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -339,19 +304,10 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="q3I-xL-uju" firstAttribute="top" secondItem="ddf-tf-P4g" secondAttribute="top" id="4cs-YR-3QW"/>
-                                    <constraint firstItem="eQW-aa-nU6" firstAttribute="top" secondItem="ddf-tf-P4g" secondAttribute="top" id="5Zr-ef-zTd"/>
-                                    <constraint firstAttribute="trailing" secondItem="eQW-aa-nU6" secondAttribute="trailing" id="UY1-1z-Bi9"/>
-                                    <constraint firstItem="eQW-aa-nU6" firstAttribute="leading" secondItem="ddf-tf-P4g" secondAttribute="leading" id="efK-5l-x3S"/>
-                                    <constraint firstAttribute="bottom" secondItem="q3I-xL-uju" secondAttribute="bottom" id="fWt-Hx-I9Y"/>
-                                    <constraint firstItem="q3I-xL-uju" firstAttribute="leading" secondItem="ddf-tf-P4g" secondAttribute="leading" id="lH6-nm-ZEA"/>
-                                    <constraint firstAttribute="bottom" secondItem="eQW-aa-nU6" secondAttribute="bottom" id="m8n-eD-2Ip"/>
-                                    <constraint firstAttribute="trailing" secondItem="q3I-xL-uju" secondAttribute="trailing" id="rWe-t6-cfu"/>
-                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0wv-mC-Chn" userLabel="card6">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0wv-mC-Chn" userLabel="card6">
                                 <rect key="frame" x="238" y="349" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qlf-Lr-EZa" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -403,19 +359,10 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="fcy-EO-NGF" secondAttribute="trailing" id="9zI-YG-W0Z"/>
-                                    <constraint firstItem="fcy-EO-NGF" firstAttribute="top" secondItem="0wv-mC-Chn" secondAttribute="top" id="G3h-LA-yfH"/>
-                                    <constraint firstItem="Qlf-Lr-EZa" firstAttribute="top" secondItem="0wv-mC-Chn" secondAttribute="top" id="GOZ-j7-cpc"/>
-                                    <constraint firstAttribute="bottom" secondItem="Qlf-Lr-EZa" secondAttribute="bottom" id="Oaq-lV-V3N"/>
-                                    <constraint firstItem="fcy-EO-NGF" firstAttribute="leading" secondItem="0wv-mC-Chn" secondAttribute="leading" id="TZf-sq-ggL"/>
-                                    <constraint firstItem="Qlf-Lr-EZa" firstAttribute="leading" secondItem="0wv-mC-Chn" secondAttribute="leading" id="gGy-k2-X3Z"/>
-                                    <constraint firstAttribute="trailing" secondItem="Qlf-Lr-EZa" secondAttribute="trailing" id="u1H-jx-Ky0"/>
-                                    <constraint firstAttribute="bottom" secondItem="fcy-EO-NGF" secondAttribute="bottom" id="zDI-27-QHj"/>
-                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9fS-Iz-xFj" userLabel="card7">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9fS-Iz-xFj" userLabel="card7">
                                 <rect key="frame" x="396" y="349" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qWF-zw-43i" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -467,19 +414,10 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="qWF-zw-43i" secondAttribute="trailing" id="0LP-kN-6h5"/>
-                                    <constraint firstItem="5Xj-OL-Hox" firstAttribute="leading" secondItem="9fS-Iz-xFj" secondAttribute="leading" id="67L-tZ-TpT"/>
-                                    <constraint firstItem="qWF-zw-43i" firstAttribute="leading" secondItem="9fS-Iz-xFj" secondAttribute="leading" id="C0C-yR-uvf"/>
-                                    <constraint firstAttribute="trailing" secondItem="5Xj-OL-Hox" secondAttribute="trailing" id="DAc-RN-LBz"/>
-                                    <constraint firstAttribute="bottom" secondItem="qWF-zw-43i" secondAttribute="bottom" id="hM3-He-Qkt"/>
-                                    <constraint firstAttribute="bottom" secondItem="5Xj-OL-Hox" secondAttribute="bottom" id="m2z-tW-K0c"/>
-                                    <constraint firstItem="qWF-zw-43i" firstAttribute="top" secondItem="9fS-Iz-xFj" secondAttribute="top" id="n6l-d6-pBV"/>
-                                    <constraint firstItem="5Xj-OL-Hox" firstAttribute="top" secondItem="9fS-Iz-xFj" secondAttribute="top" id="xpT-FD-9xW"/>
-                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hB0-Jm-A1E" userLabel="card8">
-                                <rect key="frame" x="545" y="349" width="150" height="150"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hB0-Jm-A1E" userLabel="card8">
+                                <rect key="frame" x="554" y="349" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TD7-Nc-SEN" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -531,19 +469,10 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="K8x-3D-O9e" firstAttribute="leading" secondItem="hB0-Jm-A1E" secondAttribute="leading" id="83d-W3-GMN"/>
-                                    <constraint firstItem="TD7-Nc-SEN" firstAttribute="leading" secondItem="hB0-Jm-A1E" secondAttribute="leading" id="CbZ-fB-cRn"/>
-                                    <constraint firstItem="TD7-Nc-SEN" firstAttribute="top" secondItem="hB0-Jm-A1E" secondAttribute="top" id="LDH-xC-Mxq"/>
-                                    <constraint firstItem="K8x-3D-O9e" firstAttribute="top" secondItem="hB0-Jm-A1E" secondAttribute="top" id="Ogt-Lg-ida"/>
-                                    <constraint firstAttribute="bottom" secondItem="TD7-Nc-SEN" secondAttribute="bottom" id="RZ7-hs-D0s"/>
-                                    <constraint firstAttribute="bottom" secondItem="K8x-3D-O9e" secondAttribute="bottom" id="h54-rY-z6R"/>
-                                    <constraint firstAttribute="trailing" secondItem="K8x-3D-O9e" secondAttribute="trailing" id="iPh-l3-rCa"/>
-                                    <constraint firstAttribute="trailing" secondItem="TD7-Nc-SEN" secondAttribute="trailing" id="sng-vJ-Bw3"/>
-                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Log-og-6da" userLabel="card9">
-                                <rect key="frame" x="538" y="507" width="150" height="150"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Log-og-6da" userLabel="card9">
+                                <rect key="frame" x="80" y="507" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qzU-70-8qe" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -595,19 +524,10 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="Vbz-ww-g0d" firstAttribute="top" secondItem="Log-og-6da" secondAttribute="top" id="30N-oB-HgA"/>
-                                    <constraint firstItem="qzU-70-8qe" firstAttribute="leading" secondItem="Log-og-6da" secondAttribute="leading" id="3Bq-se-jFP"/>
-                                    <constraint firstAttribute="bottom" secondItem="qzU-70-8qe" secondAttribute="bottom" id="8y3-fO-JkD"/>
-                                    <constraint firstAttribute="bottom" secondItem="Vbz-ww-g0d" secondAttribute="bottom" id="93d-rR-aq2"/>
-                                    <constraint firstAttribute="trailing" secondItem="Vbz-ww-g0d" secondAttribute="trailing" id="95p-6s-K53"/>
-                                    <constraint firstItem="Vbz-ww-g0d" firstAttribute="leading" secondItem="Log-og-6da" secondAttribute="leading" id="DQc-vg-MeV"/>
-                                    <constraint firstAttribute="trailing" secondItem="qzU-70-8qe" secondAttribute="trailing" id="flF-bk-WUf"/>
-                                    <constraint firstItem="qzU-70-8qe" firstAttribute="top" secondItem="Log-og-6da" secondAttribute="top" id="t5O-bY-xlr"/>
-                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B4x-yz-iqt" userLabel="card10">
-                                <rect key="frame" x="222" y="507" width="150" height="150"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B4x-yz-iqt" userLabel="card10">
+                                <rect key="frame" x="238" y="507" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cvs-AH-Ena" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -659,19 +579,10 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="cvs-AH-Ena" firstAttribute="top" secondItem="B4x-yz-iqt" secondAttribute="top" id="5sf-JG-6lE"/>
-                                    <constraint firstItem="cvs-AH-Ena" firstAttribute="leading" secondItem="B4x-yz-iqt" secondAttribute="leading" id="6ol-Dt-q3k"/>
-                                    <constraint firstAttribute="trailing" secondItem="cvs-AH-Ena" secondAttribute="trailing" id="Qbm-wa-ZFj"/>
-                                    <constraint firstItem="vRk-Rf-T6G" firstAttribute="leading" secondItem="B4x-yz-iqt" secondAttribute="leading" id="SLO-ox-I1T"/>
-                                    <constraint firstAttribute="bottom" secondItem="vRk-Rf-T6G" secondAttribute="bottom" id="dF2-41-wog"/>
-                                    <constraint firstAttribute="bottom" secondItem="cvs-AH-Ena" secondAttribute="bottom" id="ueU-cj-24a"/>
-                                    <constraint firstItem="vRk-Rf-T6G" firstAttribute="top" secondItem="B4x-yz-iqt" secondAttribute="top" id="zMb-Ij-mvA"/>
-                                    <constraint firstAttribute="trailing" secondItem="vRk-Rf-T6G" secondAttribute="trailing" id="zkz-jj-dFe"/>
-                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Ts-nk-Gub" userLabel="card11">
-                                <rect key="frame" x="380" y="507" width="150" height="150"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Ts-nk-Gub" userLabel="card11">
+                                <rect key="frame" x="396" y="507" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tis-xH-bfS" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -723,19 +634,10 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="tis-xH-bfS" firstAttribute="leading" secondItem="6Ts-nk-Gub" secondAttribute="leading" id="EAa-O6-y47"/>
-                                    <constraint firstAttribute="bottom" secondItem="zOO-H4-ahW" secondAttribute="bottom" id="Gtc-kk-V1h"/>
-                                    <constraint firstAttribute="trailing" secondItem="zOO-H4-ahW" secondAttribute="trailing" id="IKR-JK-sR3"/>
-                                    <constraint firstAttribute="trailing" secondItem="tis-xH-bfS" secondAttribute="trailing" id="Mc7-Y8-VsM"/>
-                                    <constraint firstItem="tis-xH-bfS" firstAttribute="top" secondItem="6Ts-nk-Gub" secondAttribute="top" id="V4m-ff-keh"/>
-                                    <constraint firstItem="zOO-H4-ahW" firstAttribute="leading" secondItem="6Ts-nk-Gub" secondAttribute="leading" id="bfH-YW-t6a"/>
-                                    <constraint firstAttribute="bottom" secondItem="tis-xH-bfS" secondAttribute="bottom" id="jw0-XS-Y9l"/>
-                                    <constraint firstItem="zOO-H4-ahW" firstAttribute="top" secondItem="6Ts-nk-Gub" secondAttribute="top" id="o1J-MH-LiG"/>
-                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aRZ-wd-rhi" userLabel="card12">
-                                <rect key="frame" x="73" y="507" width="150" height="150"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aRZ-wd-rhi" userLabel="card12">
+                                <rect key="frame" x="554" y="507" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cd6-DH-6cZ" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -787,19 +689,10 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="Cd6-DH-6cZ" secondAttribute="bottom" id="5hF-oe-fpw"/>
-                                    <constraint firstItem="Cd6-DH-6cZ" firstAttribute="top" secondItem="aRZ-wd-rhi" secondAttribute="top" id="5uF-Iu-y3A"/>
-                                    <constraint firstItem="084-Is-NpB" firstAttribute="top" secondItem="aRZ-wd-rhi" secondAttribute="top" id="ORh-g1-LWg"/>
-                                    <constraint firstAttribute="bottom" secondItem="084-Is-NpB" secondAttribute="bottom" id="RK5-Ag-ONM"/>
-                                    <constraint firstAttribute="trailing" secondItem="084-Is-NpB" secondAttribute="trailing" id="WMz-PF-Qox"/>
-                                    <constraint firstAttribute="trailing" secondItem="Cd6-DH-6cZ" secondAttribute="trailing" id="bt8-Hz-XRM"/>
-                                    <constraint firstItem="Cd6-DH-6cZ" firstAttribute="leading" secondItem="aRZ-wd-rhi" secondAttribute="leading" id="jDK-JW-6Sh"/>
-                                    <constraint firstItem="084-Is-NpB" firstAttribute="leading" secondItem="aRZ-wd-rhi" secondAttribute="leading" id="qWf-rG-STH"/>
-                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oaC-ml-eJu" userLabel="card13">
-                                <rect key="frame" x="538" y="665" width="150" height="150"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oaC-ml-eJu" userLabel="card13">
+                                <rect key="frame" x="80" y="665" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VgM-DT-jT8" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -851,19 +744,10 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="Rgx-Gs-aXv" secondAttribute="bottom" id="0Ev-nd-Sdr"/>
-                                    <constraint firstItem="VgM-DT-jT8" firstAttribute="leading" secondItem="oaC-ml-eJu" secondAttribute="leading" id="N49-4q-aNT"/>
-                                    <constraint firstAttribute="trailing" secondItem="VgM-DT-jT8" secondAttribute="trailing" id="RTx-Fn-mSn"/>
-                                    <constraint firstItem="Rgx-Gs-aXv" firstAttribute="leading" secondItem="oaC-ml-eJu" secondAttribute="leading" id="ZCA-fD-hYX"/>
-                                    <constraint firstItem="Rgx-Gs-aXv" firstAttribute="top" secondItem="oaC-ml-eJu" secondAttribute="top" id="gdy-di-0VL"/>
-                                    <constraint firstAttribute="trailing" secondItem="Rgx-Gs-aXv" secondAttribute="trailing" id="o16-wd-vgc"/>
-                                    <constraint firstItem="VgM-DT-jT8" firstAttribute="top" secondItem="oaC-ml-eJu" secondAttribute="top" id="oJO-Zx-Ncp"/>
-                                    <constraint firstAttribute="bottom" secondItem="VgM-DT-jT8" secondAttribute="bottom" id="w4e-hN-ZjX"/>
-                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bRD-SW-n75" userLabel="card14">
-                                <rect key="frame" x="222" y="665" width="150" height="150"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bRD-SW-n75" userLabel="card14">
+                                <rect key="frame" x="238" y="665" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JpK-2p-O9f" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -915,19 +799,10 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="JpK-2p-O9f" firstAttribute="top" secondItem="bRD-SW-n75" secondAttribute="top" id="2vD-Rc-frj"/>
-                                    <constraint firstItem="e7K-VP-gt6" firstAttribute="leading" secondItem="bRD-SW-n75" secondAttribute="leading" id="5d9-jb-M63"/>
-                                    <constraint firstItem="e7K-VP-gt6" firstAttribute="top" secondItem="bRD-SW-n75" secondAttribute="top" id="9ax-Z6-2Ff"/>
-                                    <constraint firstAttribute="trailing" secondItem="e7K-VP-gt6" secondAttribute="trailing" id="CKk-0L-glS"/>
-                                    <constraint firstAttribute="bottom" secondItem="e7K-VP-gt6" secondAttribute="bottom" id="Mcu-gd-6r6"/>
-                                    <constraint firstAttribute="trailing" secondItem="JpK-2p-O9f" secondAttribute="trailing" id="Spd-nz-Xro"/>
-                                    <constraint firstItem="JpK-2p-O9f" firstAttribute="leading" secondItem="bRD-SW-n75" secondAttribute="leading" id="Tg1-uH-5ON"/>
-                                    <constraint firstAttribute="bottom" secondItem="JpK-2p-O9f" secondAttribute="bottom" id="gWY-0J-xg1"/>
-                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WaD-ou-Wci" userLabel="card15">
-                                <rect key="frame" x="380" y="665" width="150" height="150"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WaD-ou-Wci" userLabel="card15">
+                                <rect key="frame" x="396" y="665" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zQk-st-w5C" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -979,19 +854,10 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="zQk-st-w5C" firstAttribute="top" secondItem="WaD-ou-Wci" secondAttribute="top" id="3GE-c2-Yib"/>
-                                    <constraint firstAttribute="trailing" secondItem="zQk-st-w5C" secondAttribute="trailing" id="9uw-sZ-g25"/>
-                                    <constraint firstAttribute="bottom" secondItem="zQk-st-w5C" secondAttribute="bottom" id="NNF-Cu-UzZ"/>
-                                    <constraint firstItem="3FM-O4-pLn" firstAttribute="leading" secondItem="WaD-ou-Wci" secondAttribute="leading" id="Ryf-LE-irq"/>
-                                    <constraint firstAttribute="trailing" secondItem="3FM-O4-pLn" secondAttribute="trailing" id="Y9J-BU-ufT"/>
-                                    <constraint firstItem="zQk-st-w5C" firstAttribute="leading" secondItem="WaD-ou-Wci" secondAttribute="leading" id="j3p-dg-qO5"/>
-                                    <constraint firstAttribute="bottom" secondItem="3FM-O4-pLn" secondAttribute="bottom" id="lpO-nb-bJb"/>
-                                    <constraint firstItem="3FM-O4-pLn" firstAttribute="top" secondItem="WaD-ou-Wci" secondAttribute="top" id="pAE-xL-tFE"/>
-                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f1m-3h-3N2" userLabel="card16">
-                                <rect key="frame" x="73" y="665" width="150" height="150"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f1m-3h-3N2" userLabel="card16">
+                                <rect key="frame" x="554" y="665" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nom-Tp-rmh" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -1043,20 +909,6 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="Nom-Tp-rmh" secondAttribute="trailing" id="HqD-5d-1EH"/>
-                                    <constraint firstItem="UvS-17-M08" firstAttribute="leading" secondItem="f1m-3h-3N2" secondAttribute="leading" id="PNC-Mn-APP"/>
-                                    <constraint firstAttribute="trailing" secondItem="UvS-17-M08" secondAttribute="trailing" id="d2Z-WZ-Gm4"/>
-                                    <constraint firstAttribute="bottom" secondItem="Nom-Tp-rmh" secondAttribute="bottom" id="eNg-3T-mPV"/>
-                                    <constraint firstItem="Nom-Tp-rmh" firstAttribute="top" secondItem="f1m-3h-3N2" secondAttribute="top" id="pj6-zs-LLd"/>
-                                    <constraint firstItem="Nom-Tp-rmh" firstAttribute="leading" secondItem="f1m-3h-3N2" secondAttribute="leading" id="q88-Kv-OdH"/>
-                                    <constraint firstItem="UvS-17-M08" firstAttribute="top" secondItem="f1m-3h-3N2" secondAttribute="top" id="qTR-X0-gGm"/>
-                                    <constraint firstAttribute="bottom" secondItem="UvS-17-M08" secondAttribute="bottom" id="tFe-WC-1XX"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MLw-9D-KTy" userLabel="back_cards">
-                                <rect key="frame" x="98" y="191" width="608" height="608"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1065,7 +917,6 @@
                             <constraint firstItem="dmY-wo-mH9" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="SX9-ru-j22"/>
                             <constraint firstItem="fNQ-zS-Gz1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="V4L-Yp-Xng"/>
                             <constraint firstItem="fNQ-zS-Gz1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dga-vO-xR6"/>
-                            <constraint firstItem="MLw-9D-KTy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fJQ-xz-U2Q"/>
                             <constraint firstItem="fNQ-zS-Gz1" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="h19-as-uGD"/>
                             <constraint firstItem="dmY-wo-mH9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="haq-gL-zEq"/>
                             <constraint firstItem="fNQ-zS-Gz1" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="sL3-Ob-sP0"/>
