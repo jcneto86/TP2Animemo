@@ -46,6 +46,19 @@ class ViewController: UIViewController {
     @IBAction func showCard(_ sender: Any) {
     }
     //=======================================
+    func flipCard(from: UIView, to: UIView) {
+        let transitionOptions: UIViewAnimationOptions = [.transitionFlipFromRight, .showHideTransitionViews]
+        
+        UIView.transition(with: from, duration: 1.0, options: transitionOptions, animations: {
+            from.isHidden = true
+        })
+        
+        UIView.transition(with: to, duration: 1.0, options: transitionOptions, animations: {
+            to.isHidden = false
+        })
+    }
+    //=======================================
+
 
     
 }

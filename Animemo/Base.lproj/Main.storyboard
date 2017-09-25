@@ -129,6 +129,9 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="mBq-bA-DZm" secondAttribute="height" multiplier="1:1" id="i9v-dT-pZu"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8TX-fL-hLB"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -190,6 +193,9 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="ghd-H8-tQ8" secondAttribute="height" multiplier="1:1" id="nsu-9G-f7n"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="74T-Lu-J0T"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -251,6 +257,9 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="0lw-gs-E65" secondAttribute="height" multiplier="1:1" id="YVP-RQ-PsK"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cfi-IC-1Yh"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -278,7 +287,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ddf-tf-P4g" userLabel="card5">
-                                <rect key="frame" x="538" y="349" width="150" height="150"/>
+                                <rect key="frame" x="80" y="349" width="150" height="150"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eQW-aa-nU6" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -312,6 +321,9 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="qoM-G5-9mK" secondAttribute="height" multiplier="1:1" id="oom-Op-Uk0"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MTk-Yn-AZ0"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -339,7 +351,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0wv-mC-Chn" userLabel="card6">
-                                <rect key="frame" x="222" y="349" width="150" height="150"/>
+                                <rect key="frame" x="238" y="349" width="150" height="150"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qlf-Lr-EZa" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -373,6 +385,9 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="sH5-uT-HWT" secondAttribute="height" multiplier="1:1" id="rGg-12-zFe"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nKh-bX-mBo"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -400,7 +415,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9fS-Iz-xFj" userLabel="card7">
-                                <rect key="frame" x="380" y="349" width="150" height="150"/>
+                                <rect key="frame" x="396" y="349" width="150" height="150"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qWF-zw-43i" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -434,6 +449,9 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="gBb-me-DRI" secondAttribute="height" multiplier="1:1" id="faY-lt-nZt"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="511-1H-gBA"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -461,7 +479,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hB0-Jm-A1E" userLabel="card8">
-                                <rect key="frame" x="73" y="349" width="150" height="150"/>
+                                <rect key="frame" x="545" y="349" width="150" height="150"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TD7-Nc-SEN" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -495,6 +513,9 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="MK9-n7-9iQ" secondAttribute="height" multiplier="1:1" id="DAN-eP-L5j"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AMh-fT-dIy"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -556,6 +577,9 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Vnx-CM-iLU" secondAttribute="height" multiplier="1:1" id="uql-4l-hch"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SbV-Fo-qca"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -617,6 +641,9 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="kP5-wb-bVq" secondAttribute="height" multiplier="1:1" id="UNR-og-4ek"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MKV-mM-zHC"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -678,6 +705,9 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="abi-NL-kZ4" secondAttribute="height" multiplier="1:1" id="Fin-8X-68b"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t4V-K8-RdQ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -739,6 +769,9 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="eyH-Fc-LRX" secondAttribute="height" multiplier="1:1" id="1cK-n4-AMC"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CYO-vF-0rp"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -800,6 +833,9 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Xth-F0-k52" secondAttribute="height" multiplier="1:1" id="5yX-gW-48M"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JiO-ff-Qya"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -861,6 +897,9 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="qcd-Rj-bjo" secondAttribute="height" multiplier="1:1" id="Mld-Fb-YUq"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="266-dI-cpQ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -922,6 +961,9 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Qhf-Xg-KhU" secondAttribute="height" multiplier="1:1" id="boF-wZ-3vl"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gjK-vL-UZf"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -983,6 +1025,9 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="YUh-5c-2Pq" secondAttribute="height" multiplier="1:1" id="Kd1-nO-Dja"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dsr-PL-2bZ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -1009,6 +1054,10 @@
                                     <constraint firstAttribute="bottom" secondItem="UvS-17-M08" secondAttribute="bottom" id="tFe-WC-1XX"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MLw-9D-KTy" userLabel="back_cards">
+                                <rect key="frame" x="98" y="191" width="608" height="608"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -1016,6 +1065,7 @@
                             <constraint firstItem="dmY-wo-mH9" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="SX9-ru-j22"/>
                             <constraint firstItem="fNQ-zS-Gz1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="V4L-Yp-Xng"/>
                             <constraint firstItem="fNQ-zS-Gz1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dga-vO-xR6"/>
+                            <constraint firstItem="MLw-9D-KTy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fJQ-xz-U2Q"/>
                             <constraint firstItem="fNQ-zS-Gz1" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="h19-as-uGD"/>
                             <constraint firstItem="dmY-wo-mH9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="haq-gL-zEq"/>
                             <constraint firstItem="fNQ-zS-Gz1" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="sL3-Ob-sP0"/>
