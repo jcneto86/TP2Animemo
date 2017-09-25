@@ -72,7 +72,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var card16: UIView!
     //=======================================
     var arrayOfImageViews: [UIImageView]!
-    var arrayOfAnimalNames = ["beaver.png", "beaver.png", "bee.png", "bee.png", "cat.png", "cat.png", "chicken.png", "chicken.png", "cow.png", "cow.png", "dog.png", "dog.png", "duck.png", "duck.png", "moose.png", "moose.png", "pig.png", "pig.png", "sheep.png"]
+    var arrayOfAnimalNames = ["beaver.png", "beaver.png", "cat.png", "cat.png", "cow.png", "cow.png", "dog.png", "dog.png", "duck.png", "duck.png", "moose.png", "moose.png", "pig.png", "pig.png", "sheep.png", "sheep.png"]
     var arrayOfRandomAnimalNames = [String]()
     var arrayChosenCards = [String]()
     var arrayOfCards = [UIView]()
@@ -90,6 +90,7 @@ class ViewController: UIViewController {
     }
     //=======================================
     @IBAction func showCard(_ sender: UIButton) {
+        print(sender.tag)
         if arrayOfHidingFronts.count == 2 {
             return
         }
