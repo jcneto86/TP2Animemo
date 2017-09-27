@@ -4,6 +4,9 @@ import UIKit
 
 class ViewController: UIViewController {
     //=======================================
+    
+    @IBOutlet var viewResetPage: UIView!
+    
     @IBOutlet weak var back1: UIView!
     @IBOutlet weak var front1: UIView!
     @IBOutlet weak var back2: UIView!
@@ -79,6 +82,8 @@ class ViewController: UIViewController {
     var arrayOfShowingBacks = [UIView]()
     var arrayOfHidingFronts = [UIView]()
     var cards: [UIView]!
+    var animalsFound = 0
+    
     //=======================================
 
     override func viewDidLoad() {
@@ -90,7 +95,6 @@ class ViewController: UIViewController {
     }
     //=======================================
     @IBAction func showCard(_ sender: UIButton) {
-        print(sender.tag)
         if arrayOfHidingFronts.count == 2 {
             return
         }
@@ -230,6 +234,8 @@ class ViewController: UIViewController {
                                      selector: (#selector(hideCards)),
                                      userInfo: nil,
                                      repeats: false)
+                animalsFound = +1
+                print(animalsFound)
             } else {
                 arrayOfCards = []
             }
@@ -237,6 +243,14 @@ class ViewController: UIViewController {
         }
         resetCards()
     }
+    //=======================================
+    /*func resetPage () {
+        var arrayResetPage = [UIView](viewResetPage)
+        if animalsFound == 8 {
+            resetPage().isHidde
+        }
+        
+    }*/
     //=======================================
     @objc func hideCards() {
         arrayOfCards[0].isHidden = true

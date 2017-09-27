@@ -19,224 +19,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K4d-rM-6yB">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backMenu.png" translatesAutoresizingMaskIntoConstraints="NO" id="fNQ-zS-Gz1">
-                                        <rect key="frame" x="0.0" y="0.0" width="768" height="90"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pUP-jk-cDh" userLabel="beaver">
-                                        <rect key="frame" x="356" y="0.0" width="55" height="90"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0cj-in-NfB" userLabel="on">
-                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="on-beaver.png" translatesAutoresizingMaskIntoConstraints="NO" id="JVx-ll-cE3">
-                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
-                                                </subviews>
-                                            </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vfr-af-5GV" userLabel="off">
-                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="off-beaver.png" translatesAutoresizingMaskIntoConstraints="NO" id="dIb-FG-eOJ">
-                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
-                                                </subviews>
-                                            </view>
-                                        </subviews>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3VH-CJ-efa" userLabel="beaver">
-                                        <rect key="frame" x="356" y="0.0" width="55" height="90"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W7t-kt-aoh" userLabel="on">
-                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="on-beaver.png" translatesAutoresizingMaskIntoConstraints="NO" id="EL8-H5-nz5">
-                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
-                                                </subviews>
-                                            </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="85O-2f-KmV" userLabel="off">
-                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="off-beaver.png" translatesAutoresizingMaskIntoConstraints="NO" id="2dt-Hq-5Ne">
-                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
-                                                </subviews>
-                                            </view>
-                                        </subviews>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Xd-nm-mNM" userLabel="beaver">
-                                        <rect key="frame" x="356" y="0.0" width="55" height="90"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zrn-sC-qoj" userLabel="on">
-                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="on-beaver.png" translatesAutoresizingMaskIntoConstraints="NO" id="8k8-PD-eOG">
-                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
-                                                </subviews>
-                                            </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5MW-dc-uCG" userLabel="off">
-                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="off-beaver.png" translatesAutoresizingMaskIntoConstraints="NO" id="qKm-h6-Y0x">
-                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
-                                                </subviews>
-                                            </view>
-                                        </subviews>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SoE-Pu-bfl" userLabel="beaver">
-                                        <rect key="frame" x="356" y="0.0" width="55" height="90"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SiJ-y7-R87" userLabel="on">
-                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="on-beaver.png" translatesAutoresizingMaskIntoConstraints="NO" id="oBI-6p-KVQ">
-                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
-                                                </subviews>
-                                            </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b8h-YZ-t0G" userLabel="off">
-                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="off-beaver.png" translatesAutoresizingMaskIntoConstraints="NO" id="oJv-UA-mwt">
-                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
-                                                </subviews>
-                                            </view>
-                                        </subviews>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nKN-oX-xxz" userLabel="beaver">
-                                        <rect key="frame" x="356" y="0.0" width="55" height="90"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="erB-OD-PXo" userLabel="on">
-                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="on-beaver.png" translatesAutoresizingMaskIntoConstraints="NO" id="9bi-V3-ZBz">
-                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
-                                                </subviews>
-                                            </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2cH-Ho-7wD" userLabel="off">
-                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="off-beaver.png" translatesAutoresizingMaskIntoConstraints="NO" id="fPZ-3Z-Uvp">
-                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
-                                                </subviews>
-                                            </view>
-                                        </subviews>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C2v-Jl-oxJ" userLabel="beaver">
-                                        <rect key="frame" x="356" y="0.0" width="55" height="90"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UjJ-8k-PGf" userLabel="on">
-                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="on-beaver.png" translatesAutoresizingMaskIntoConstraints="NO" id="d01-ZB-c3L">
-                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
-                                                </subviews>
-                                            </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KpH-UC-zxZ" userLabel="off">
-                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="off-beaver.png" translatesAutoresizingMaskIntoConstraints="NO" id="TkM-VX-TNS">
-                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
-                                                </subviews>
-                                            </view>
-                                        </subviews>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LoC-O0-B1V" userLabel="beaver">
-                                        <rect key="frame" x="356" y="0.0" width="55" height="90"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PC8-Af-DGe" userLabel="on">
-                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="on-beaver.png" translatesAutoresizingMaskIntoConstraints="NO" id="og9-zj-RwB">
-                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
-                                                </subviews>
-                                            </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xKk-6n-rbR" userLabel="off">
-                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="off-beaver.png" translatesAutoresizingMaskIntoConstraints="NO" id="Hre-kF-Bdg">
-                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
-                                                </subviews>
-                                            </view>
-                                        </subviews>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RpF-YA-0Y3" userLabel="beaver">
-                                        <rect key="frame" x="356" y="0.0" width="55" height="90"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nvi-f9-Sku" userLabel="on">
-                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="on-beaver.png" translatesAutoresizingMaskIntoConstraints="NO" id="tmO-vS-OF7">
-                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
-                                                </subviews>
-                                            </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AD1-R8-DD2" userLabel="off">
-                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="off-beaver.png" translatesAutoresizingMaskIntoConstraints="NO" id="wEH-IV-jae">
-                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
-                                                </subviews>
-                                            </view>
-                                        </subviews>
-                                    </view>
-                                </subviews>
-                            </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="leaf.png" translatesAutoresizingMaskIntoConstraints="NO" id="dmY-wo-mH9">
                                 <rect key="frame" x="0.0" y="898" width="768" height="126"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -769,16 +551,225 @@
                                     </view>
                                 </subviews>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PHv-nt-rfh">
-                                <rect key="frame" x="643" y="846" width="46" height="30"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K4d-rM-6yB" userLabel="score">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Reset">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O4U-6N-VOG"/>
-                                </connections>
-                            </button>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backMenu.png" translatesAutoresizingMaskIntoConstraints="NO" id="fNQ-zS-Gz1">
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="90"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3VH-CJ-efa" userLabel="moose">
+                                        <rect key="frame" x="453" y="11" width="55" height="90"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W7t-kt-aoh" userLabel="on">
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="on-moose.png" translatesAutoresizingMaskIntoConstraints="NO" id="EL8-H5-nz5">
+                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="85O-2f-KmV" userLabel="off">
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="off-moose.png" translatesAutoresizingMaskIntoConstraints="NO" id="2dt-Hq-5Ne">
+                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </view>
+                                        </subviews>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Xd-nm-mNM" userLabel="cat">
+                                        <rect key="frame" x="324" y="11" width="55" height="90"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zrn-sC-qoj" userLabel="on">
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="on-cat.png" translatesAutoresizingMaskIntoConstraints="NO" id="8k8-PD-eOG">
+                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5MW-dc-uCG" userLabel="off">
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="off-cat.png" translatesAutoresizingMaskIntoConstraints="NO" id="qKm-h6-Y0x">
+                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </view>
+                                        </subviews>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SoE-Pu-bfl" userLabel="pig">
+                                        <rect key="frame" x="516" y="11" width="55" height="90"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SiJ-y7-R87" userLabel="on">
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="on-pig.png" translatesAutoresizingMaskIntoConstraints="NO" id="oBI-6p-KVQ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b8h-YZ-t0G" userLabel="off">
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="off-pig.png" translatesAutoresizingMaskIntoConstraints="NO" id="oJv-UA-mwt">
+                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </view>
+                                        </subviews>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nKN-oX-xxz" userLabel="cow">
+                                        <rect key="frame" x="579" y="11" width="55" height="90"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="erB-OD-PXo" userLabel="on">
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="on-cow.png" translatesAutoresizingMaskIntoConstraints="NO" id="9bi-V3-ZBz">
+                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2cH-Ho-7wD" userLabel="off">
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="off-cow.png" translatesAutoresizingMaskIntoConstraints="NO" id="fPZ-3Z-Uvp">
+                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </view>
+                                        </subviews>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C2v-Jl-oxJ" userLabel="dog">
+                                        <rect key="frame" x="261" y="11" width="55" height="90"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UjJ-8k-PGf" userLabel="on">
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="on-dog.png" translatesAutoresizingMaskIntoConstraints="NO" id="d01-ZB-c3L">
+                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KpH-UC-zxZ" userLabel="off">
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="off-dog.png" translatesAutoresizingMaskIntoConstraints="NO" id="TkM-VX-TNS">
+                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </view>
+                                        </subviews>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LoC-O0-B1V" userLabel="duck">
+                                        <rect key="frame" x="198" y="11" width="55" height="90"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PC8-Af-DGe" userLabel="on">
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="on-duck.png" translatesAutoresizingMaskIntoConstraints="NO" id="og9-zj-RwB">
+                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xKk-6n-rbR" userLabel="off">
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="off-duck.png" translatesAutoresizingMaskIntoConstraints="NO" id="Hre-kF-Bdg">
+                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </view>
+                                        </subviews>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RpF-YA-0Y3" userLabel="sheep">
+                                        <rect key="frame" x="135" y="11" width="55" height="90"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nvi-f9-Sku" userLabel="on">
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="on-sheep.png" translatesAutoresizingMaskIntoConstraints="NO" id="tmO-vS-OF7">
+                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AD1-R8-DD2" userLabel="off">
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="off-sheep.png" translatesAutoresizingMaskIntoConstraints="NO" id="wEH-IV-jae">
+                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </view>
+                                        </subviews>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pUP-jk-cDh" userLabel="beaver">
+                                        <rect key="frame" x="387" y="11" width="55" height="90"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0cj-in-NfB" userLabel="on">
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="on-beaver.png" translatesAutoresizingMaskIntoConstraints="NO" id="JVx-ll-cE3">
+                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vfr-af-5GV" userLabel="off">
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="off-beaver.png" translatesAutoresizingMaskIntoConstraints="NO" id="dIb-FG-eOJ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </view>
+                                        </subviews>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="0kI-vk-bVg"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -848,10 +839,11 @@
                         <outlet property="imgView7" destination="tZS-zP-crF" id="mnq-kM-xfg"/>
                         <outlet property="imgView8" destination="p7M-5B-q8g" id="3XL-7O-Nlh"/>
                         <outlet property="imgView9" destination="adY-aa-fVW" id="LL3-3K-CbZ"/>
+                        <outlet property="viewResetPage" destination="dOu-s6-DbM" id="64j-WU-bjP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <view alpha="0.80000000000000004" contentMode="scaleToFill" id="dOu-s6-DbM" userLabel="Reset">
+                <view hidden="YES" contentMode="scaleToFill" id="dOu-s6-DbM" userLabel="Reset">
                     <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
@@ -861,11 +853,25 @@
                                 <constraint firstAttribute="width" secondItem="8dm-wW-D9h" secondAttribute="height" multiplier="227:42" id="FVE-ti-b5D"/>
                             </constraints>
                         </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PHv-nt-rfh">
+                            <rect key="frame" x="235" y="363" width="299" height="299"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="PHv-nt-rfh" secondAttribute="height" multiplier="1:1" id="fAb-D0-W0Y"/>
+                            </constraints>
+                            <state key="normal" title="Reset" backgroundImage="front.png">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O4U-6N-VOG"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstItem="8dm-wW-D9h" firstAttribute="centerX" secondItem="dOu-s6-DbM" secondAttribute="centerX" id="Mze-7H-hMP"/>
                         <constraint firstItem="8dm-wW-D9h" firstAttribute="centerY" secondItem="dOu-s6-DbM" secondAttribute="centerY" multiplier="0.4" id="Zy1-sY-3EW"/>
+                        <constraint firstItem="PHv-nt-rfh" firstAttribute="centerY" secondItem="dOu-s6-DbM" secondAttribute="centerY" id="aUa-Tv-m7n"/>
+                        <constraint firstItem="PHv-nt-rfh" firstAttribute="centerX" secondItem="dOu-s6-DbM" secondAttribute="centerX" id="qtJ-kb-JlB"/>
                         <constraint firstItem="8dm-wW-D9h" firstAttribute="width" secondItem="dOu-s6-DbM" secondAttribute="width" multiplier="0.5911" id="t4v-qH-Aox"/>
                     </constraints>
                     <viewLayoutGuide key="safeArea" id="ohx-Ue-byr"/>
@@ -881,6 +887,20 @@
         <image name="logo_animemo.png" width="837" height="150"/>
         <image name="moose.png" width="300" height="300"/>
         <image name="off-beaver.png" width="150" height="150"/>
+        <image name="off-cat.png" width="150" height="150"/>
+        <image name="off-cow.png" width="150" height="150"/>
+        <image name="off-dog.png" width="150" height="150"/>
+        <image name="off-duck.png" width="150" height="150"/>
+        <image name="off-moose.png" width="150" height="150"/>
+        <image name="off-pig.png" width="150" height="150"/>
+        <image name="off-sheep.png" width="150" height="150"/>
         <image name="on-beaver.png" width="150" height="150"/>
+        <image name="on-cat.png" width="150" height="150"/>
+        <image name="on-cow.png" width="150" height="150"/>
+        <image name="on-dog.png" width="150" height="150"/>
+        <image name="on-duck.png" width="150" height="150"/>
+        <image name="on-moose.png" width="150" height="150"/>
+        <image name="on-pig.png" width="150" height="150"/>
+        <image name="on-sheep.png" width="150" height="150"/>
     </resources>
 </document>
