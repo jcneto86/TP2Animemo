@@ -854,11 +854,11 @@
                             </constraints>
                         </imageView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PHv-nt-rfh">
-                            <rect key="frame" x="235" y="363" width="299" height="299"/>
+                            <rect key="frame" x="234.5" y="362.5" width="300" height="300"/>
                             <constraints>
                                 <constraint firstAttribute="width" secondItem="PHv-nt-rfh" secondAttribute="height" multiplier="1:1" id="fAb-D0-W0Y"/>
                             </constraints>
-                            <state key="normal" title="Reset" backgroundImage="front.png">
+                            <state key="normal" backgroundImage="reset.png">
                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
                             <connections>
@@ -902,5 +902,6 @@
         <image name="on-moose.png" width="150" height="150"/>
         <image name="on-pig.png" width="150" height="150"/>
         <image name="on-sheep.png" width="150" height="150"/>
+        <image name="reset.png" width="300" height="300"/>
     </resources>
 </document>

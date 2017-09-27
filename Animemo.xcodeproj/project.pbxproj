@@ -57,6 +57,7 @@
 		525845451F7AE5B200765CFA /* Icon-196.png in Resources */ = {isa = PBXBuildFile; fileRef = 525845271F7AE5B100765CFA /* Icon-196.png */; };
 		525845461F7AE5B200765CFA /* Icon-88.png in Resources */ = {isa = PBXBuildFile; fileRef = 525845281F7AE5B100765CFA /* Icon-88.png */; };
 		525845471F7AE5B200765CFA /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 525845291F7AE5B100765CFA /* Icon-57.png */; };
+		52A4DB661F7BDEEF00488535 /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A4DB651F7BDEEF00488535 /* reset.png */; };
 		52E597981F796F6700E1F59A /* logo_animemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 52E597971F796F6700E1F59A /* logo_animemo.png */; };
 		52E597AA1F7997B500E1F59A /* on-dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 52E5979A1F7997B300E1F59A /* on-dog.png */; };
 		52E597AB1F7997B500E1F59A /* off-moose.png in Resources */ = {isa = PBXBuildFile; fileRef = 52E5979B1F7997B300E1F59A /* off-moose.png */; };
@@ -150,6 +151,7 @@
 		525845271F7AE5B100765CFA /* Icon-196.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-196.png"; path = "images/icones/Icon-196.png"; sourceTree = SOURCE_ROOT; };
 		525845281F7AE5B100765CFA /* Icon-88.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-88.png"; path = "images/icones/Icon-88.png"; sourceTree = SOURCE_ROOT; };
 		525845291F7AE5B100765CFA /* Icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-57.png"; path = "images/icones/Icon-57.png"; sourceTree = SOURCE_ROOT; };
+		52A4DB651F7BDEEF00488535 /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reset.png; path = images/reset.png; sourceTree = SOURCE_ROOT; };
 		52E597971F796F6700E1F59A /* logo_animemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_animemo.png; path = images/logo_animemo.png; sourceTree = SOURCE_ROOT; };
 		52E5979A1F7997B300E1F59A /* on-dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "on-dog.png"; path = "images/img_animals/icons_menu/on-dog.png"; sourceTree = SOURCE_ROOT; };
 		52E5979B1F7997B300E1F59A /* off-moose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "off-moose.png"; path = "images/img_animals/icons_menu/off-moose.png"; sourceTree = SOURCE_ROOT; };
@@ -249,6 +251,7 @@
 		5206F3A41F7178CD00836411 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				52A4DB651F7BDEEF00488535 /* reset.png */,
 				5258450B1F7AE59200765CFA /* icones */,
 				52E597971F796F6700E1F59A /* logo_animemo.png */,
 				520B7A011F78692F007EAC5A /* front.png */,
@@ -475,6 +478,7 @@
 				52E597981F796F6700E1F59A /* logo_animemo.png in Resources */,
 				525845441F7AE5B200765CFA /* Icon-128.png in Resources */,
 				52E597B81F7997B500E1F59A /* on-duck.png in Resources */,
+				52A4DB661F7BDEEF00488535 /* reset.png in Resources */,
 				52E597B21F7997B500E1F59A /* on-sheep.png in Resources */,
 				525845451F7AE5B200765CFA /* Icon-196.png in Resources */,
 				523A6BC01F742BD200D8E3AA /* backMenu.png in Resources */,
