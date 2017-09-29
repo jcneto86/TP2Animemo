@@ -83,6 +83,7 @@ class ViewController: UIViewController {
     var arrayOfHidingFronts = [UIView]()
     var cards: [UIView]!
     var animalsFound = 0
+    var arrayOfResetPage = [UIView]()
     
     //=======================================
 
@@ -234,8 +235,11 @@ class ViewController: UIViewController {
                                      selector: (#selector(hideCards)),
                                      userInfo: nil,
                                      repeats: false)
-                animalsFound = +1
+                animalsFound = animalsFound+1
                 print(animalsFound)
+                if animalsFound == 8 {
+                    resetPage()
+                }
             } else {
                 arrayOfCards = []
             }
@@ -244,13 +248,11 @@ class ViewController: UIViewController {
         resetCards()
     }
     //=======================================
-    /*func resetPage () {
-        var arrayResetPage = [UIView](viewResetPage)
-        if animalsFound == 8 {
-            resetPage().isHidde
-        }
-        
-    }*/
+    @objc func resetPage () {
+        print("Ele está vivo!")
+        arrayOfResetPage = [viewResetPage]
+        arrayOfResetPage[0].isHidden = false
+    }
     //=======================================
     @objc func hideCards() {
         arrayOfCards[0].isHidden = true
@@ -274,6 +276,8 @@ class ViewController: UIViewController {
         arrayOfRandomAnimalNames = []
         randomAnimals()
         setImagesToCards()
+        arrayOfResetPage = [viewResetPage]
+        animalsFound = 0
     }
     //=======================================
 }

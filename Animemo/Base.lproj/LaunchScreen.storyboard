@@ -5,8 +5,6 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,22 +17,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y99-tv-fkK" userLabel="Reset">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y99-tv-fkK" userLabel="Reset">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="logo_animemo.png" translatesAutoresizingMaskIntoConstraints="NO" id="yez-Nk-BeH">
-                                        <rect key="frame" x="157" y="401" width="454" height="84"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="yez-Nk-BeH" secondAttribute="height" multiplier="227:42" id="Qsv-s0-JA3"/>
-                                        </constraints>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo_animemo.png" translatesAutoresizingMaskIntoConstraints="NO" id="yez-Nk-BeH">
+                                        <rect key="frame" x="157" y="357" width="454" height="142"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstItem="yez-Nk-BeH" firstAttribute="centerX" secondItem="y99-tv-fkK" secondAttribute="centerX" id="Nup-Ga-YT1"/>
-                                    <constraint firstItem="yez-Nk-BeH" firstAttribute="centerY" secondItem="y99-tv-fkK" secondAttribute="centerY" multiplier="0.4" id="dMa-pW-Vxf"/>
-                                    <constraint firstItem="yez-Nk-BeH" firstAttribute="width" secondItem="y99-tv-fkK" secondAttribute="width" multiplier="0.5911" id="yFE-tp-Q0f"/>
-                                </constraints>
                                 <viewLayoutGuide key="safeArea" id="f4K-w1-sYn"/>
                             </view>
                         </subviews>
