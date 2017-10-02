@@ -277,6 +277,7 @@ class ViewController: UIViewController {
         randomAnimals()
         setImagesToCards()
         arrayOfResetPage = [viewResetPage]
+        arrayOfResetPage[0].isHidden = true
         animalsFound = 0
     }
     //=======================================
