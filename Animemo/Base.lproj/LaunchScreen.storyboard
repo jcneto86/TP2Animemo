@@ -23,15 +23,26 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_animemo.png" translatesAutoresizingMaskIntoConstraints="NO" id="yez-Nk-BeH">
-                                        <rect key="frame" x="115" y="235.5" width="538" height="273.5"/>
+                                        <rect key="frame" x="115" y="235.5" width="538" height="274"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="yez-Nk-BeH" secondAttribute="height" multiplier="227:71" constant="-337.66197183098598" id="WwX-k7-6tN"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ani.png" translatesAutoresizingMaskIntoConstraints="NO" id="TSm-ZO-HHd">
+                                        <rect key="frame" x="0.0" y="447.5" width="768" height="224"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="TSm-ZO-HHd" secondAttribute="height" multiplier="24:7" id="5KL-Ge-zIT"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="yez-Nk-BeH" firstAttribute="width" secondItem="y99-tv-fkK" secondAttribute="width" multiplier="0.7" id="24l-mM-h7a"/>
+                                    <constraint firstItem="TSm-ZO-HHd" firstAttribute="trailing" secondItem="f4K-w1-sYn" secondAttribute="trailing" id="2S8-3e-Jao"/>
+                                    <constraint firstItem="TSm-ZO-HHd" firstAttribute="width" secondItem="y99-tv-fkK" secondAttribute="width" id="4zu-vp-Dlp"/>
+                                    <constraint firstItem="TSm-ZO-HHd" firstAttribute="centerX" secondItem="y99-tv-fkK" secondAttribute="centerX" id="VKF-lW-0vd"/>
+                                    <constraint firstItem="TSm-ZO-HHd" firstAttribute="top" secondItem="yez-Nk-BeH" secondAttribute="top" multiplier="1.9" id="aFS-S8-42u"/>
+                                    <constraint firstItem="TSm-ZO-HHd" firstAttribute="leading" secondItem="f4K-w1-sYn" secondAttribute="leading" id="kMa-UE-d7e"/>
                                     <constraint firstItem="yez-Nk-BeH" firstAttribute="centerY" secondItem="f4K-w1-sYn" secondAttribute="centerY" multiplier="0.7" constant="7" id="kQo-IE-wBC"/>
                                     <constraint firstItem="yez-Nk-BeH" firstAttribute="centerX" secondItem="f4K-w1-sYn" secondAttribute="centerX" id="tWn-tc-bMl"/>
                                 </constraints>
@@ -51,10 +62,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.34375" y="375"/>
         </scene>
     </scenes>
     <resources>
+        <image name="ani.png" width="1686" height="730"/>
         <image name="logo_animemo.png" width="837" height="150"/>
     </resources>
 </document>

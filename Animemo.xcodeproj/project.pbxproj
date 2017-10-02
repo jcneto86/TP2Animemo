@@ -14,6 +14,8 @@
 		5206F3801F71706800836411 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5206F37E1F71706800836411 /* LaunchScreen.storyboard */; };
 		5206F38B1F71706800836411 /* AnimemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5206F38A1F71706800836411 /* AnimemoTests.swift */; };
 		5206F3961F71706800836411 /* AnimemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5206F3951F71706800836411 /* AnimemoUITests.swift */; };
+		528EF0EC1F82D1A800D71B1C /* bg_view.png in Resources */ = {isa = PBXBuildFile; fileRef = 528EF0EA1F82D1A700D71B1C /* bg_view.png */; };
+		528EF0ED1F82D1A800D71B1C /* ani.png in Resources */ = {isa = PBXBuildFile; fileRef = 528EF0EB1F82D1A800D71B1C /* ani.png */; };
 		529A66DA1F7E7CA8005FCDAC /* on-pig.png in Resources */ = {isa = PBXBuildFile; fileRef = 529A66CA1F7E7CA7005FCDAC /* on-pig.png */; };
 		529A66DB1F7E7CA8005FCDAC /* off-moose.png in Resources */ = {isa = PBXBuildFile; fileRef = 529A66CB1F7E7CA7005FCDAC /* off-moose.png */; };
 		529A66DC1F7E7CA8005FCDAC /* off-dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 529A66CC1F7E7CA7005FCDAC /* off-dog.png */; };
@@ -109,6 +111,8 @@
 		5206F3911F71706800836411 /* AnimemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5206F3951F71706800836411 /* AnimemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimemoUITests.swift; sourceTree = "<group>"; };
 		5206F3971F71706800836411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		528EF0EA1F82D1A700D71B1C /* bg_view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_view.png; sourceTree = "<group>"; };
+		528EF0EB1F82D1A800D71B1C /* ani.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ani.png; sourceTree = "<group>"; };
 		529A66CA1F7E7CA7005FCDAC /* on-pig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "on-pig.png"; path = "Animemo/images/img_animals/icons_menu/on-pig.png"; sourceTree = SOURCE_ROOT; };
 		529A66CB1F7E7CA7005FCDAC /* off-moose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "off-moose.png"; path = "Animemo/images/img_animals/icons_menu/off-moose.png"; sourceTree = SOURCE_ROOT; };
 		529A66CC1F7E7CA7005FCDAC /* off-dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "off-dog.png"; path = "Animemo/images/img_animals/icons_menu/off-dog.png"; sourceTree = SOURCE_ROOT; };
@@ -253,6 +257,8 @@
 		5206F3A41F7178CD00836411 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				528EF0EB1F82D1A800D71B1C /* ani.png */,
+				528EF0EA1F82D1A700D71B1C /* bg_view.png */,
 				529A673E1F7E7CF3005FCDAC /* backIconsMenu.png */,
 				529A673D1F7E7CF3005FCDAC /* backMenu.png */,
 				529A673F1F7E7CF4005FCDAC /* front.png */,
@@ -481,6 +487,7 @@
 				529A66E81F7E7CA8005FCDAC /* on-moose.png in Resources */,
 				529A671C1F7E7CE3005FCDAC /* Icon-76.png in Resources */,
 				529A66DF1F7E7CA8005FCDAC /* off-cow.png in Resources */,
+				528EF0EC1F82D1A800D71B1C /* bg_view.png in Resources */,
 				529A67201F7E7CE3005FCDAC /* Icon-60.png in Resources */,
 				529A67391F7E7CE3005FCDAC /* Icon-58.png in Resources */,
 				529A66FC1F7E7CCA005FCDAC /* moose.png in Resources */,
@@ -504,6 +511,7 @@
 				529A66FD1F7E7CCA005FCDAC /* pig.png in Resources */,
 				529A66F61F7E7CCA005FCDAC /* beaver.png in Resources */,
 				529A67411F7E7CF4005FCDAC /* reset.png in Resources */,
+				528EF0ED1F82D1A800D71B1C /* ani.png in Resources */,
 				529A67321F7E7CE3005FCDAC /* Icon-144.png in Resources */,
 				529A67371F7E7CE3005FCDAC /* Icon-152.png in Resources */,
 				529A66DD1F7E7CA8005FCDAC /* off-sheep.png in Resources */,
