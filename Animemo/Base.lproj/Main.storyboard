@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="ipad9_7" orientation="portrait">
+    <device id="ipad12_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -16,32 +16,32 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Animemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="leaf.png" translatesAutoresizingMaskIntoConstraints="NO" id="dmY-wo-mH9">
-                                <rect key="frame" x="0.0" y="898" width="768" height="126"/>
+                                <rect key="frame" x="0.0" y="1198" width="1024" height="168"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="dmY-wo-mH9" secondAttribute="height" multiplier="128:21" id="dEe-6B-wZP"/>
                                 </constraints>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="DKy-6C-jQU">
-                                <rect key="frame" x="38.5" y="166.5" width="691" height="691"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="DKy-6C-jQU" userLabel="Stack View Cards">
+                                <rect key="frame" x="51" y="222" width="922" height="922"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P0g-td-qt0">
-                                        <rect key="frame" x="0.0" y="0.0" width="691" height="173"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="922" height="230.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="BtN-Ss-jr9" userLabel="stackCard1">
-                                                <rect key="frame" x="0.0" y="0.0" width="173" height="173"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pqi-Yp-BLG" userLabel="card1">
-                                                        <rect key="frame" x="0.0" y="0.0" width="173" height="173"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                         <subviews>
                                                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nEp-P2-gPu" userLabel="back">
-                                                                <rect key="frame" x="0.0" y="0.0" width="173" height="173"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moose.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Y8-De-0jb" userLabel="animal">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="173" height="173"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="7Y8-De-0jb" secondAttribute="height" multiplier="1:1" id="R2g-QR-gwL"/>
                                                                         </constraints>
@@ -56,16 +56,16 @@
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BnD-zR-uxY" userLabel="front">
-                                                                <rect key="frame" x="0.0" y="0.0" width="173" height="173"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="front.png" translatesAutoresizingMaskIntoConstraints="NO" id="STM-B8-4sa" userLabel="front">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="173" height="173"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="STM-B8-4sa" secondAttribute="height" multiplier="1:1" id="dez-3G-qfq"/>
                                                                         </constraints>
                                                                     </imageView>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="byb-pJ-b8U">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="173" height="173"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="byb-pJ-b8U" secondAttribute="height" multiplier="1:1" id="4ty-wL-eWt"/>
                                                                         </constraints>
@@ -110,16 +110,16 @@
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="lWm-T0-v64" userLabel="stackCard2">
-                                                <rect key="frame" x="173" y="0.0" width="172.5" height="173"/>
+                                                <rect key="frame" x="230.5" y="0.0" width="230.5" height="230.5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wIw-pu-T8c" userLabel="card2">
-                                                        <rect key="frame" x="0.0" y="0.0" width="172.5" height="173"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                         <subviews>
                                                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="22g-gn-Ukc" userLabel="back">
-                                                                <rect key="frame" x="0.0" y="0.0" width="172.5" height="173"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moose.png" translatesAutoresizingMaskIntoConstraints="NO" id="LRm-Z8-7H9" userLabel="animal">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="172.5" height="173"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="LRm-Z8-7H9" secondAttribute="height" multiplier="1:1" id="IFz-jC-2Nt"/>
                                                                         </constraints>
@@ -134,16 +134,16 @@
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T5s-Dy-Tz7" userLabel="front">
-                                                                <rect key="frame" x="0.0" y="0.0" width="172.5" height="173"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="front.png" translatesAutoresizingMaskIntoConstraints="NO" id="nqV-E9-rvz" userLabel="front">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="172.5" height="173"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="nqV-E9-rvz" secondAttribute="height" multiplier="1:1" id="cgS-VW-TUc"/>
                                                                         </constraints>
                                                                     </imageView>
                                                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBq-bA-DZm">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="172.5" height="173"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="mBq-bA-DZm" secondAttribute="height" multiplier="1:1" id="KpE-kf-BF9"/>
                                                                         </constraints>
@@ -186,17 +186,17 @@
                                                     <constraint firstAttribute="width" secondItem="lWm-T0-v64" secondAttribute="height" multiplier="1:1" id="zub-Cl-LJA"/>
                                                 </constraints>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="LcD-it-qpo">
-                                                <rect key="frame" x="345.5" y="0.0" width="173" height="173"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="LcD-it-qpo" userLabel="stackCard3">
+                                                <rect key="frame" x="461" y="0.0" width="230.5" height="230.5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0bi-7h-6sb" userLabel="card3">
-                                                        <rect key="frame" x="0.0" y="0.0" width="173" height="173"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                         <subviews>
                                                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ipV-0q-aS9" userLabel="back">
-                                                                <rect key="frame" x="0.0" y="0.0" width="172.5" height="173"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="230" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moose.png" translatesAutoresizingMaskIntoConstraints="NO" id="xbe-hp-EC5" userLabel="animal">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="172.5" height="173"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="xbe-hp-EC5" secondAttribute="height" multiplier="1:1" id="TVA-Pv-MJv"/>
                                                                         </constraints>
@@ -211,16 +211,16 @@
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GCS-se-hUc" userLabel="front">
-                                                                <rect key="frame" x="0.0" y="0.0" width="172.5" height="173"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="230" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="front.png" translatesAutoresizingMaskIntoConstraints="NO" id="eSZ-BX-3T6" userLabel="front">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="172.5" height="173"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="eSZ-BX-3T6" secondAttribute="height" multiplier="1:1" id="CsT-YU-qfC"/>
                                                                         </constraints>
                                                                     </imageView>
                                                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ghd-H8-tQ8">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="172.5" height="173"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="ghd-H8-tQ8" secondAttribute="height" multiplier="1:1" id="RWH-oC-Xrh"/>
                                                                         </constraints>
@@ -263,17 +263,17 @@
                                                     <constraint firstAttribute="bottom" secondItem="0bi-7h-6sb" secondAttribute="bottom" id="sXR-yf-w6u"/>
                                                 </constraints>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="80c-uN-MnI">
-                                                <rect key="frame" x="518.5" y="0.0" width="172.5" height="173"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="80c-uN-MnI" userLabel="stackCard4">
+                                                <rect key="frame" x="691.5" y="0.0" width="230.5" height="230.5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PQ6-ew-Mp7" userLabel="card4">
-                                                        <rect key="frame" x="0.0" y="0.0" width="172.5" height="173"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                         <subviews>
                                                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FuC-8e-CVM" userLabel="back">
-                                                                <rect key="frame" x="0.0" y="0.0" width="173" height="173"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="231" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moose.png" translatesAutoresizingMaskIntoConstraints="NO" id="hrC-uU-H5i" userLabel="animal">
-                                                                        <rect key="frame" x="0.5" y="0.0" width="173" height="173"/>
+                                                                        <rect key="frame" x="0.5" y="0.0" width="231" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="hrC-uU-H5i" secondAttribute="height" multiplier="1:1" id="c4f-me-n2m"/>
                                                                         </constraints>
@@ -288,16 +288,16 @@
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KCN-ng-a7v" userLabel="front">
-                                                                <rect key="frame" x="0.0" y="0.0" width="173" height="173"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="231" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="front.png" translatesAutoresizingMaskIntoConstraints="NO" id="hVp-ch-SR6" userLabel="front">
-                                                                        <rect key="frame" x="0.5" y="0.0" width="173" height="173"/>
+                                                                        <rect key="frame" x="0.5" y="0.0" width="231" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="hVp-ch-SR6" secondAttribute="height" multiplier="1:1" id="J08-Qx-n8E"/>
                                                                         </constraints>
                                                                     </imageView>
                                                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0lw-gs-E65">
-                                                                        <rect key="frame" x="0.5" y="0.0" width="173" height="173"/>
+                                                                        <rect key="frame" x="0.5" y="0.0" width="231" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="0lw-gs-E65" secondAttribute="height" multiplier="1:1" id="m5G-A6-XNS"/>
                                                                         </constraints>
@@ -367,19 +367,19 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fQd-HY-WEN">
-                                        <rect key="frame" x="0.0" y="173" width="691" height="172.5"/>
+                                        <rect key="frame" x="0.0" y="230.5" width="922" height="230.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="IUm-Mc-PYj">
-                                                <rect key="frame" x="0.0" y="0.0" width="173.5" height="172.5"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="IUm-Mc-PYj" userLabel="stackCard5">
+                                                <rect key="frame" x="0.0" y="0.0" width="231" height="230.5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ddf-tf-P4g" userLabel="card5">
-                                                        <rect key="frame" x="0.0" y="0.0" width="173.5" height="172.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="231" height="230.5"/>
                                                         <subviews>
                                                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eQW-aa-nU6" userLabel="back">
-                                                                <rect key="frame" x="0.0" y="0.0" width="173.5" height="172.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="231" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moose.png" translatesAutoresizingMaskIntoConstraints="NO" id="g68-LP-kLZ" userLabel="animal">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="173.5" height="172.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="231" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="g68-LP-kLZ" secondAttribute="height" multiplier="1:1" id="7eq-Og-wxy"/>
                                                                         </constraints>
@@ -394,16 +394,16 @@
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q3I-xL-uju" userLabel="front">
-                                                                <rect key="frame" x="0.0" y="0.0" width="173.5" height="172.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="231" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="front.png" translatesAutoresizingMaskIntoConstraints="NO" id="ycl-WQ-aL4" userLabel="front">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="173.5" height="172.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="231" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="ycl-WQ-aL4" secondAttribute="height" multiplier="1:1" id="TbK-Qf-9kx"/>
                                                                         </constraints>
                                                                     </imageView>
                                                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qoM-G5-9mK">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="173.5" height="172.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="231" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="qoM-G5-9mK" secondAttribute="height" multiplier="1:1" id="Xpi-vA-G3y"/>
                                                                         </constraints>
@@ -446,17 +446,17 @@
                                                     <constraint firstAttribute="trailing" secondItem="ddf-tf-P4g" secondAttribute="trailing" id="vPh-ZM-v0m"/>
                                                 </constraints>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kqX-5I-GVe">
-                                                <rect key="frame" x="173.5" y="0.0" width="172.5" height="172.5"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kqX-5I-GVe" userLabel="stackCard6">
+                                                <rect key="frame" x="231" y="0.0" width="230.5" height="230.5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0wv-mC-Chn" userLabel="card6">
-                                                        <rect key="frame" x="0.0" y="0.0" width="172.5" height="172.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                         <subviews>
                                                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qlf-Lr-EZa" userLabel="back">
-                                                                <rect key="frame" x="0.0" y="0.0" width="172.5" height="172.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moose.png" translatesAutoresizingMaskIntoConstraints="NO" id="xRY-5t-Slh" userLabel="animal">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="172.5" height="172.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="xRY-5t-Slh" secondAttribute="height" multiplier="1:1" id="6fY-Fa-aLh"/>
                                                                         </constraints>
@@ -471,16 +471,16 @@
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fcy-EO-NGF" userLabel="front">
-                                                                <rect key="frame" x="0.0" y="0.0" width="172.5" height="172.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="front.png" translatesAutoresizingMaskIntoConstraints="NO" id="sDT-Sh-8VA" userLabel="front">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="172.5" height="172.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="sDT-Sh-8VA" secondAttribute="height" multiplier="1:1" id="QSM-fh-DxM"/>
                                                                         </constraints>
                                                                     </imageView>
                                                                     <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sH5-uT-HWT">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="172.5" height="172.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="sH5-uT-HWT" secondAttribute="height" multiplier="1:1" id="QAV-TZ-2Ay"/>
                                                                         </constraints>
@@ -523,17 +523,17 @@
                                                     <constraint firstItem="0wv-mC-Chn" firstAttribute="leading" secondItem="kqX-5I-GVe" secondAttribute="leading" id="hoA-ie-CPa"/>
                                                 </constraints>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Sks-tN-EMj">
-                                                <rect key="frame" x="346" y="0.0" width="173" height="172.5"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Sks-tN-EMj" userLabel="stackCard7">
+                                                <rect key="frame" x="461.5" y="0.0" width="230.5" height="230.5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9fS-Iz-xFj" userLabel="card7">
-                                                        <rect key="frame" x="0.0" y="0.0" width="173" height="172.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                         <subviews>
                                                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qWF-zw-43i" userLabel="back">
-                                                                <rect key="frame" x="0.0" y="0.0" width="173" height="172.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moose.png" translatesAutoresizingMaskIntoConstraints="NO" id="tZS-zP-crF" userLabel="animal">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="173" height="172.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="tZS-zP-crF" secondAttribute="height" multiplier="1:1" id="dCZ-Zq-50h"/>
                                                                         </constraints>
@@ -548,16 +548,16 @@
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Xj-OL-Hox" userLabel="front">
-                                                                <rect key="frame" x="0.0" y="0.0" width="173" height="172.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="front.png" translatesAutoresizingMaskIntoConstraints="NO" id="yXh-Mz-INg" userLabel="front">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="173" height="172.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="yXh-Mz-INg" secondAttribute="height" multiplier="1:1" id="MfJ-U3-aF0"/>
                                                                         </constraints>
                                                                     </imageView>
                                                                     <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBb-me-DRI">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="173" height="172.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="gBb-me-DRI" secondAttribute="height" multiplier="1:1" id="Xuj-kz-IIR"/>
                                                                         </constraints>
@@ -600,17 +600,17 @@
                                                     <constraint firstAttribute="trailing" secondItem="9fS-Iz-xFj" secondAttribute="trailing" id="vgK-5g-w8Y"/>
                                                 </constraints>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="D0m-a4-MIs">
-                                                <rect key="frame" x="519" y="0.0" width="172" height="172.5"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="D0m-a4-MIs" userLabel="stackCard8">
+                                                <rect key="frame" x="692" y="0.0" width="230" height="230.5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hB0-Jm-A1E" userLabel="card8">
-                                                        <rect key="frame" x="0.5" y="0.0" width="172" height="172.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="230" height="230.5"/>
                                                         <subviews>
                                                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TD7-Nc-SEN" userLabel="back">
-                                                                <rect key="frame" x="1" y="0.0" width="172.5" height="172.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moose.png" translatesAutoresizingMaskIntoConstraints="NO" id="p7M-5B-q8g" userLabel="animal">
-                                                                        <rect key="frame" x="1" y="0.0" width="173" height="172.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="231" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="p7M-5B-q8g" secondAttribute="height" multiplier="1:1" id="dXy-fV-yUy"/>
                                                                         </constraints>
@@ -625,16 +625,16 @@
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K8x-3D-O9e" userLabel="front">
-                                                                <rect key="frame" x="1" y="0.0" width="172.5" height="172.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="front.png" translatesAutoresizingMaskIntoConstraints="NO" id="1qw-sk-JVy" userLabel="front">
-                                                                        <rect key="frame" x="1" y="0.0" width="173" height="172.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="231" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="1qw-sk-JVy" secondAttribute="height" multiplier="1:1" id="09z-0S-X2I"/>
                                                                         </constraints>
                                                                     </imageView>
                                                                     <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MK9-n7-9iQ">
-                                                                        <rect key="frame" x="1" y="0.0" width="173" height="172.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="231" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="MK9-n7-9iQ" secondAttribute="height" multiplier="1:1" id="xZO-eg-ZB2"/>
                                                                         </constraints>
@@ -696,19 +696,19 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vqy-1z-wMa">
-                                        <rect key="frame" x="0.0" y="345.5" width="691" height="173"/>
+                                        <rect key="frame" x="0.0" y="461" width="922" height="230.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="xXa-UT-yQe">
-                                                <rect key="frame" x="0.0" y="0.0" width="173" height="173"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="xXa-UT-yQe" userLabel="stackCard9">
+                                                <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Log-og-6da" userLabel="card9">
-                                                        <rect key="frame" x="0.0" y="0.0" width="173" height="173"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                         <subviews>
                                                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qzU-70-8qe" userLabel="back">
-                                                                <rect key="frame" x="0.0" y="0.0" width="173" height="173"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moose.png" translatesAutoresizingMaskIntoConstraints="NO" id="adY-aa-fVW" userLabel="animal">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="173" height="173"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="adY-aa-fVW" secondAttribute="height" multiplier="1:1" id="Hep-Gt-iQp"/>
                                                                         </constraints>
@@ -723,16 +723,16 @@
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vbz-ww-g0d" userLabel="front">
-                                                                <rect key="frame" x="0.0" y="0.0" width="173" height="173"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="front.png" translatesAutoresizingMaskIntoConstraints="NO" id="LvT-EQ-MY4" userLabel="front">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="173" height="173"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="LvT-EQ-MY4" secondAttribute="height" multiplier="1:1" id="U4f-i1-CSQ"/>
                                                                         </constraints>
                                                                     </imageView>
                                                                     <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vnx-CM-iLU">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="173" height="173"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="Vnx-CM-iLU" secondAttribute="height" multiplier="1:1" id="OQj-eA-VWT"/>
                                                                         </constraints>
@@ -775,17 +775,17 @@
                                                     <constraint firstAttribute="width" secondItem="xXa-UT-yQe" secondAttribute="height" multiplier="1:1" id="fCJ-yI-jKP"/>
                                                 </constraints>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jA3-ZD-yP2">
-                                                <rect key="frame" x="173" y="0.0" width="172" height="173"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jA3-ZD-yP2" userLabel="stackCard10">
+                                                <rect key="frame" x="230.5" y="0.0" width="230" height="230.5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B4x-yz-iqt" userLabel="card10">
-                                                        <rect key="frame" x="0.0" y="0.0" width="172" height="173"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="230" height="230.5"/>
                                                         <subviews>
                                                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cvs-AH-Ena" userLabel="back">
-                                                                <rect key="frame" x="0.0" y="0.0" width="172" height="173"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="230" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moose.png" translatesAutoresizingMaskIntoConstraints="NO" id="cB8-hy-hr3" userLabel="animal">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="172" height="173"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="cB8-hy-hr3" secondAttribute="height" multiplier="1:1" id="7Xs-Nl-TSp"/>
                                                                         </constraints>
@@ -800,16 +800,16 @@
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vRk-Rf-T6G" userLabel="front">
-                                                                <rect key="frame" x="0.0" y="0.0" width="172" height="173"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="230" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="front.png" translatesAutoresizingMaskIntoConstraints="NO" id="PFf-rF-9nk" userLabel="front">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="172" height="173"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="PFf-rF-9nk" secondAttribute="height" multiplier="1:1" id="kJd-VV-aZt"/>
                                                                         </constraints>
                                                                     </imageView>
                                                                     <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kP5-wb-bVq">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="172" height="173"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="kP5-wb-bVq" secondAttribute="height" multiplier="1:1" id="a6K-Vn-cyh"/>
                                                                         </constraints>
@@ -852,17 +852,17 @@
                                                     <constraint firstItem="B4x-yz-iqt" firstAttribute="top" secondItem="jA3-ZD-yP2" secondAttribute="top" id="yNd-lH-GIn"/>
                                                 </constraints>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kBS-51-q2y">
-                                                <rect key="frame" x="345" y="0.0" width="173.5" height="173"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kBS-51-q2y" userLabel="stackCard11">
+                                                <rect key="frame" x="460.5" y="0.0" width="230.5" height="230.5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Ts-nk-Gub" userLabel="card11">
-                                                        <rect key="frame" x="0.0" y="0.0" width="173.5" height="173"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                         <subviews>
                                                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tis-xH-bfS" userLabel="back">
-                                                                <rect key="frame" x="0.0" y="0.0" width="173.5" height="173"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moose.png" translatesAutoresizingMaskIntoConstraints="NO" id="En5-UZ-qwN" userLabel="animal">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="173.5" height="173"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="En5-UZ-qwN" secondAttribute="height" multiplier="1:1" id="xMv-NP-7ar"/>
                                                                         </constraints>
@@ -877,16 +877,16 @@
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zOO-H4-ahW" userLabel="front">
-                                                                <rect key="frame" x="0.0" y="0.0" width="173.5" height="173"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="front.png" translatesAutoresizingMaskIntoConstraints="NO" id="VMO-Bi-uBh" userLabel="front">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="173.5" height="173"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="VMO-Bi-uBh" secondAttribute="height" multiplier="1:1" id="AGH-oz-sC6"/>
                                                                         </constraints>
                                                                     </imageView>
                                                                     <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abi-NL-kZ4">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="173.5" height="173"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="abi-NL-kZ4" secondAttribute="height" multiplier="1:1" id="edI-3O-fv6"/>
                                                                         </constraints>
@@ -929,17 +929,17 @@
                                                     <constraint firstAttribute="width" secondItem="kBS-51-q2y" secondAttribute="height" multiplier="1:1" id="e4W-KD-6OM"/>
                                                 </constraints>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="yrq-9A-OlR">
-                                                <rect key="frame" x="518.5" y="0.0" width="172.5" height="173"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="yrq-9A-OlR" userLabel="stackCard12">
+                                                <rect key="frame" x="691" y="0.0" width="231" height="230.5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aRZ-wd-rhi" userLabel="card12">
-                                                        <rect key="frame" x="0.5" y="0.0" width="172.5" height="173"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="231" height="230.5"/>
                                                         <subviews>
                                                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cd6-DH-6cZ" userLabel="back">
-                                                                <rect key="frame" x="0.5" y="0.0" width="172" height="173"/>
+                                                                <rect key="frame" x="0.5" y="0.0" width="230" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moose.png" translatesAutoresizingMaskIntoConstraints="NO" id="eUU-3f-LJR" userLabel="animal">
-                                                                        <rect key="frame" x="1" y="0.0" width="172.5" height="173"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="eUU-3f-LJR" secondAttribute="height" multiplier="1:1" id="eGb-T8-nHk"/>
                                                                         </constraints>
@@ -954,16 +954,16 @@
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="084-Is-NpB" userLabel="front">
-                                                                <rect key="frame" x="0.5" y="0.0" width="172" height="173"/>
+                                                                <rect key="frame" x="0.5" y="0.0" width="230" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="front.png" translatesAutoresizingMaskIntoConstraints="NO" id="m1K-M3-9qv" userLabel="front">
-                                                                        <rect key="frame" x="1" y="0.0" width="172.5" height="173"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="m1K-M3-9qv" secondAttribute="height" multiplier="1:1" id="kpH-e8-1CY"/>
                                                                         </constraints>
                                                                     </imageView>
                                                                     <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eyH-Fc-LRX">
-                                                                        <rect key="frame" x="1" y="0.0" width="172.5" height="173"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="eyH-Fc-LRX" secondAttribute="height" multiplier="1:1" id="IMR-g9-HtI"/>
                                                                         </constraints>
@@ -1025,19 +1025,19 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ayf-eb-F5C">
-                                        <rect key="frame" x="0.0" y="518.5" width="691" height="172.5"/>
+                                        <rect key="frame" x="0.0" y="691.5" width="922" height="230.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hdS-c4-C2c">
-                                                <rect key="frame" x="0.0" y="0.5" width="173.5" height="172.5"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hdS-c4-C2c" userLabel="stackCard13">
+                                                <rect key="frame" x="0.0" y="0.0" width="231" height="230.5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oaC-ml-eJu" userLabel="card13">
-                                                        <rect key="frame" x="0.0" y="0.5" width="173.5" height="172.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="231" height="230.5"/>
                                                         <subviews>
                                                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VgM-DT-jT8" userLabel="back">
-                                                                <rect key="frame" x="0.0" y="0.5" width="173.5" height="172.5"/>
+                                                                <rect key="frame" x="0.0" y="0.5" width="231" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moose.png" translatesAutoresizingMaskIntoConstraints="NO" id="WME-QY-WWo" userLabel="animal">
-                                                                        <rect key="frame" x="0.0" y="0.5" width="173.5" height="172.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.5" width="231" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="WME-QY-WWo" secondAttribute="height" multiplier="1:1" id="shk-Bq-GxH"/>
                                                                         </constraints>
@@ -1052,16 +1052,16 @@
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rgx-Gs-aXv" userLabel="front">
-                                                                <rect key="frame" x="0.0" y="0.5" width="173.5" height="172.5"/>
+                                                                <rect key="frame" x="0.0" y="0.5" width="231" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="front.png" translatesAutoresizingMaskIntoConstraints="NO" id="DPE-DI-cXa" userLabel="front">
-                                                                        <rect key="frame" x="0.0" y="0.5" width="173.5" height="172.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.5" width="231" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="DPE-DI-cXa" secondAttribute="height" multiplier="1:1" id="yxC-mq-nZE"/>
                                                                         </constraints>
                                                                     </imageView>
                                                                     <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xth-F0-k52">
-                                                                        <rect key="frame" x="0.0" y="0.5" width="173.5" height="172.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.5" width="231" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="Xth-F0-k52" secondAttribute="height" multiplier="1:1" id="W3A-J7-yhF"/>
                                                                         </constraints>
@@ -1104,17 +1104,17 @@
                                                     <constraint firstItem="oaC-ml-eJu" firstAttribute="top" secondItem="hdS-c4-C2c" secondAttribute="top" id="tPp-fg-K4u"/>
                                                 </constraints>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Q43-2K-hnu">
-                                                <rect key="frame" x="173.5" y="0.5" width="172.5" height="172.5"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Q43-2K-hnu" userLabel="stackCard14">
+                                                <rect key="frame" x="231" y="0.0" width="230.5" height="230.5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bRD-SW-n75" userLabel="card14">
-                                                        <rect key="frame" x="0.0" y="0.5" width="172.5" height="172.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="230.5"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JpK-2p-O9f" userLabel="back">
-                                                                <rect key="frame" x="0.0" y="0.5" width="172.5" height="172.5"/>
+                                                                <rect key="frame" x="0.0" y="0.5" width="230.5" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moose.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wdg-qC-s9e" userLabel="animal">
-                                                                        <rect key="frame" x="0.0" y="0.5" width="172.5" height="172.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.5" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="Wdg-qC-s9e" secondAttribute="height" multiplier="1:1" id="ko9-Sd-Wtg"/>
                                                                         </constraints>
@@ -1129,16 +1129,16 @@
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e7K-VP-gt6" userLabel="front">
-                                                                <rect key="frame" x="0.0" y="0.5" width="172.5" height="172.5"/>
+                                                                <rect key="frame" x="0.0" y="0.5" width="230.5" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="front.png" translatesAutoresizingMaskIntoConstraints="NO" id="QQS-H8-aAg" userLabel="front">
-                                                                        <rect key="frame" x="0.0" y="0.5" width="172.5" height="172.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.5" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="QQS-H8-aAg" secondAttribute="height" multiplier="1:1" id="Z1T-QT-Ykf"/>
                                                                         </constraints>
                                                                     </imageView>
                                                                     <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcd-Rj-bjo">
-                                                                        <rect key="frame" x="0.0" y="0.5" width="172.5" height="172.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.5" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="qcd-Rj-bjo" secondAttribute="height" multiplier="1:1" id="wGq-Ss-cD9"/>
                                                                         </constraints>
@@ -1181,17 +1181,17 @@
                                                     <constraint firstAttribute="width" secondItem="Q43-2K-hnu" secondAttribute="height" multiplier="1:1" id="yz1-BO-ne8"/>
                                                 </constraints>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jUF-0O-lQu">
-                                                <rect key="frame" x="346" y="0.5" width="173.5" height="172.5"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jUF-0O-lQu" userLabel="stackCard15">
+                                                <rect key="frame" x="461.5" y="0.0" width="231" height="230.5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WaD-ou-Wci" userLabel="card15">
-                                                        <rect key="frame" x="0.0" y="0.5" width="173.5" height="172.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="231" height="230.5"/>
                                                         <subviews>
                                                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zQk-st-w5C" userLabel="back">
-                                                                <rect key="frame" x="0.0" y="0.5" width="173.5" height="172.5"/>
+                                                                <rect key="frame" x="0.0" y="0.5" width="231" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moose.png" translatesAutoresizingMaskIntoConstraints="NO" id="ait-8r-3qA" userLabel="animal">
-                                                                        <rect key="frame" x="0.0" y="0.5" width="173.5" height="172.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.5" width="231" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="ait-8r-3qA" secondAttribute="height" multiplier="1:1" id="fUE-8d-Z9J"/>
                                                                         </constraints>
@@ -1206,16 +1206,16 @@
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3FM-O4-pLn" userLabel="front">
-                                                                <rect key="frame" x="0.0" y="0.5" width="173.5" height="172.5"/>
+                                                                <rect key="frame" x="0.0" y="0.5" width="231" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="front.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Nh-Li-iAE" userLabel="front">
-                                                                        <rect key="frame" x="0.0" y="0.5" width="173.5" height="172.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.5" width="231" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="7Nh-Li-iAE" secondAttribute="height" multiplier="1:1" id="ZSH-9W-C1t"/>
                                                                         </constraints>
                                                                     </imageView>
                                                                     <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qhf-Xg-KhU">
-                                                                        <rect key="frame" x="0.0" y="0.5" width="173.5" height="172.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.5" width="231" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="Qhf-Xg-KhU" secondAttribute="height" multiplier="1:1" id="eTl-aI-juj"/>
                                                                         </constraints>
@@ -1258,17 +1258,17 @@
                                                     <constraint firstAttribute="width" secondItem="jUF-0O-lQu" secondAttribute="height" multiplier="1:1" id="xhv-32-4nm"/>
                                                 </constraints>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kP8-6F-GFW">
-                                                <rect key="frame" x="519.5" y="0.5" width="171.5" height="172.5"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kP8-6F-GFW" userLabel="stackCard16">
+                                                <rect key="frame" x="692.5" y="0.0" width="229.5" height="230.5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f1m-3h-3N2" userLabel="card16">
-                                                        <rect key="frame" x="0.5" y="0.5" width="171.5" height="172.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="229.5" height="230.5"/>
                                                         <subviews>
                                                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nom-Tp-rmh" userLabel="back">
-                                                                <rect key="frame" x="0.5" y="0.5" width="172.5" height="172.5"/>
+                                                                <rect key="frame" x="0.5" y="0.5" width="230.5" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moose.png" translatesAutoresizingMaskIntoConstraints="NO" id="N0o-d0-9Gf" userLabel="animal">
-                                                                        <rect key="frame" x="0.5" y="0.5" width="172.5" height="172.5"/>
+                                                                        <rect key="frame" x="0.5" y="0.5" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="N0o-d0-9Gf" secondAttribute="height" multiplier="1:1" id="8kz-xS-aJt"/>
                                                                         </constraints>
@@ -1283,16 +1283,16 @@
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UvS-17-M08" userLabel="front">
-                                                                <rect key="frame" x="0.5" y="0.5" width="172.5" height="172.5"/>
+                                                                <rect key="frame" x="0.5" y="0.5" width="230.5" height="230.5"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="front.png" translatesAutoresizingMaskIntoConstraints="NO" id="YXU-HS-uLW" userLabel="front">
-                                                                        <rect key="frame" x="0.5" y="0.5" width="172.5" height="172.5"/>
+                                                                        <rect key="frame" x="0.5" y="0.5" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="YXU-HS-uLW" secondAttribute="height" multiplier="1:1" id="ok4-Pz-1Rh"/>
                                                                         </constraints>
                                                                     </imageView>
                                                                     <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUh-5c-2Pq">
-                                                                        <rect key="frame" x="0.5" y="0.5" width="172.5" height="172.5"/>
+                                                                        <rect key="frame" x="0.5" y="0.5" width="230.5" height="230.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="YUh-5c-2Pq" secondAttribute="height" multiplier="1:1" id="qrL-CH-YSS"/>
                                                                         </constraints>
@@ -1387,16 +1387,16 @@
                                 </constraints>
                             </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_animemo.png" translatesAutoresizingMaskIntoConstraints="NO" id="mNi-YI-aYL">
-                                <rect key="frame" x="115" y="20" width="538" height="86.5"/>
+                                <rect key="frame" x="153.5" y="20" width="717" height="115.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="mNi-YI-aYL" secondAttribute="height" multiplier="490:79" id="eot-j3-XRJ"/>
                                 </constraints>
                             </imageView>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ama-xy-Owc">
-                                <rect key="frame" x="0.0" y="291.5" width="768" height="461"/>
+                                <rect key="frame" x="0.0" y="386" width="1024" height="614"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MxX-F1-6CZ">
-                                        <rect key="frame" x="153.5" y="0.0" width="461" height="461"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MxX-F1-6CZ" userLabel="reset">
+                                        <rect key="frame" x="205" y="0.0" width="614" height="614"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="MxX-F1-6CZ" secondAttribute="height" multiplier="1:1" id="0gL-WH-vz4"/>
                                         </constraints>
