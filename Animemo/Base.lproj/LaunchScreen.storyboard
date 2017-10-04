@@ -34,16 +34,25 @@
                                             <constraint firstAttribute="width" secondItem="TSm-ZO-HHd" secondAttribute="height" multiplier="24:7" id="5KL-Ge-zIT"/>
                                         </constraints>
                                     </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MaGarderie.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cS5-XA-18v">
+                                        <rect key="frame" x="0.0" y="895" width="768" height="31"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <color key="textColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="yez-Nk-BeH" firstAttribute="width" secondItem="y99-tv-fkK" secondAttribute="width" multiplier="0.7" id="24l-mM-h7a"/>
                                     <constraint firstItem="TSm-ZO-HHd" firstAttribute="trailing" secondItem="f4K-w1-sYn" secondAttribute="trailing" id="2S8-3e-Jao"/>
                                     <constraint firstItem="TSm-ZO-HHd" firstAttribute="width" secondItem="y99-tv-fkK" secondAttribute="width" id="4zu-vp-Dlp"/>
+                                    <constraint firstItem="cS5-XA-18v" firstAttribute="leading" secondItem="f4K-w1-sYn" secondAttribute="leading" id="Fe2-ne-M5F"/>
+                                    <constraint firstItem="cS5-XA-18v" firstAttribute="trailing" secondItem="f4K-w1-sYn" secondAttribute="trailing" id="PYh-W1-D6T"/>
                                     <constraint firstItem="TSm-ZO-HHd" firstAttribute="centerX" secondItem="y99-tv-fkK" secondAttribute="centerX" id="VKF-lW-0vd"/>
                                     <constraint firstItem="TSm-ZO-HHd" firstAttribute="top" secondItem="yez-Nk-BeH" secondAttribute="top" multiplier="1.9" id="aFS-S8-42u"/>
                                     <constraint firstItem="TSm-ZO-HHd" firstAttribute="leading" secondItem="f4K-w1-sYn" secondAttribute="leading" id="kMa-UE-d7e"/>
                                     <constraint firstItem="yez-Nk-BeH" firstAttribute="centerY" secondItem="f4K-w1-sYn" secondAttribute="centerY" multiplier="0.7" constant="7" id="kQo-IE-wBC"/>
+                                    <constraint firstItem="cS5-XA-18v" firstAttribute="top" secondItem="TSm-ZO-HHd" secondAttribute="top" multiplier="2" id="pWN-Dw-4Pl"/>
                                     <constraint firstItem="yez-Nk-BeH" firstAttribute="centerX" secondItem="f4K-w1-sYn" secondAttribute="centerX" id="tWn-tc-bMl"/>
                                 </constraints>
                                 <viewLayoutGuide key="safeArea" id="f4K-w1-sYn"/>
@@ -54,6 +63,7 @@
                             <constraint firstItem="y99-tv-fkK" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="GqW-Sd-JtN"/>
                             <constraint firstItem="y99-tv-fkK" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Jdj-dx-n86"/>
                             <constraint firstItem="y99-tv-fkK" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="TZv-h5-0ha"/>
+                            <constraint firstItem="cS5-XA-18v" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="bNn-1A-Uf8"/>
                             <constraint firstItem="y99-tv-fkK" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="hj1-rv-yQs"/>
                             <constraint firstItem="y99-tv-fkK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="idZ-iP-NNQ"/>
                         </constraints>
