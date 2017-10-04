@@ -237,7 +237,7 @@ class ViewController: UIViewController {
                                      repeats: false)
                 animalsFound = animalsFound+1
                 if animalsFound == 8 {
-                    Timer.scheduledTimer(timeInterval: 2,
+                    Timer.scheduledTimer(timeInterval: 2.5,
                                          target: self,
                                          selector: (#selector(resetPage)),
                                          userInfo: nil,
