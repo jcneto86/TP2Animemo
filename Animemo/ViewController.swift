@@ -236,14 +236,12 @@ class ViewController: UIViewController {
                                      userInfo: nil,
                                      repeats: false)
                 animalsFound = animalsFound+1
-                print(animalsFound)
                 if animalsFound == 8 {
                     Timer.scheduledTimer(timeInterval: 2,
                                          target: self,
                                          selector: (#selector(resetPage)),
                                          userInfo: nil,
                                          repeats: false)
-                    /*resetPage()*/
                 }
             } else {
                 arrayOfCards = []
@@ -254,7 +252,6 @@ class ViewController: UIViewController {
     }
     //=======================================
     @objc func resetPage () {
-        print("Ele está vivo!")
         arrayOfResetPage = [viewResetPage]
         arrayOfResetPage[0].isHidden = false
     }
