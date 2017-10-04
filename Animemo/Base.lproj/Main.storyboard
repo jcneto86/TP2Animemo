@@ -1513,6 +1513,6 @@
         <image name="leaf.png" width="2048" height="335"/>
         <image name="logo_animemo.png" width="837" height="150"/>
         <image name="moose.png" width="300" height="300"/>
-        <image name="reset.png" width="130" height="130"/>
+        <image name="reset.png" width="800" height="800"/>
     </resources>
 </document>
