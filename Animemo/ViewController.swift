@@ -226,7 +226,10 @@ class ViewController: UIViewController {
                                  repeats: false)
         }
     }
+    
     //=======================================
+    /*Fair la verification si les pars sont égales, somme 1 à le array animalsFound et si animalsFound est égales à 8 il vas executé la function resetPage aprés 2.5 secondes*/
+    
     func verification() {
         if arrayChosenCards.count == 2 {
             if arrayChosenCards[0] == arrayChosenCards[1] {
@@ -270,6 +273,7 @@ class ViewController: UIViewController {
         arrayOfHidingFronts = []
     }
     //=======================================
+    /* Reset les array et remettre les cartes au hasard */
     @IBAction func reset(_ sender: UIButton) {
         for card in cards {
             card.isHidden =  false
